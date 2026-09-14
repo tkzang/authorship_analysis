@@ -1,0 +1,40 @@
+The Nature of Offense
+
+Recently, an extended discussion has taken place over the fact that a portion of comments here were found to be offensive by some members of this community, while others denied their offensive nature or professed to be puzzled by why they are considered offensive. Several possible explanations for why the comments are offensive have been advanced, and solutions offered based on them:
+
+Each of these explanations seems to have an element of truth, and each solution seems to have a chance of ameliorating the problem. But even though the discussion has mostly died down, we appear far from reaching an agreement, and I think one reason may be the lack of a general theory of the phenomenon of "offense", in the sense of giving and taking offense, that we can use to explain what has happened, so all of the proposed explanations and solutions feel somewhat arbitrary and unfair.
+
+(I think this article has it mostly right, but I'll give a much shorter account since I can skip the background evo psych info, and I'm not being paid by the word. :)
+
+Let's consider what other behavior are often considered offensive and see if we can find a pattern:
+
+use of vulgar language (where it's not customarily used)
+
+failing to address someone by their honorary titles
+
+not affording someone their customary privileges
+
+to impugn someone's beauty, intelligence, talent, morality, honor, ancestry, etc.
+
+making a joke at someone's expense
+
+What do all these have in common? Hint: the answer is quite ironic, given the comment that first triggered this whole fracas.
+
+As you may have guessed by now, I think the answer is status. Specifically, to give offense is to imply that a person or group has or should have low status. Taking offense then becomes easy to explain: it's to defend someone's status from such an implication, out of a sense of either fairness or self-interest. Let's go back to the three hypotheses I collected and see if this theory can cover them as special cases.
+
+"to be thought of, talked about as, or treated like a non-person" Well, to be like a non-person is clearly to have low status.
+
+"analysis of behavior that puts the reader in the group being analyzed, and the speaker outside it" A typical situation in which one group analyzes the behavior of another is a scientific study. In such a study, the researchers usually have higher status than the subjects being studied. But even to offer a casual analysis of someone else's behavior is to presume more intelligence, insight, or wisdom than that person.
+
+"exclusion from the intended audience" To be excluded from the intended audience is to be labeled an outsider by implication, and outsiders typically have lower status than insiders.
+But to fully understand why this particular comment is especially offensive, I think we have to consider that it (as well as many PUA discussions) specifically advocates (or appears to advocate) treating women as sex objects instead of potential romantic partners. Now think of the status difference between a sex object and a romantic partner...
+
+Ethical Implications
+
+Usually, one avoids giving offense by minding one's audience and taking care not to use any language that might cause offense to any audience member. This is very easy to do one-on-one, pretty easy in a small group, hard in front of a large audience (case in point: Larry Summers's infamous speech), and almost impossible on an Internet forum with a large, diverse, and invisible audience, unless one simply avoids talking about everything that might possibly have anything to do with anyone's status.
+
+Still, that doesn't mean that we shouldn't try to avoid giving offense when we can do so without affecting the point that we're making, or consider skipping a minor point if it necessarily gives offense.
+
+After all, to lower someone's social status is to cause a real harm. On the other side of this interaction, we should consider the possibility that our offensiveness sense may be tuned too sensitively, perhaps for an ancestral environment where mass media didn't exist and any offense might reasonably be considered both personal and intentional. So perhaps we should also try to be less sensitive and avoid taking offense when discussing ideas that are both important and inextricably linked with status.
+
+P.S. It's curious that there hasn't been more research into the evolutionary psychology and ethics of offense. If such research does exist and I simply failed to find them, please let me know.

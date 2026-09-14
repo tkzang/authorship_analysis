@@ -1,0 +1,13 @@
+Strong intutions. Weak arguments. What to do?
+
+I thought Ben Goertzel made an interesting point at the end of his dialog with Luke Muehlhauser, about how the strengths of both sides' arguments do not match up with the strengths of their intuitions:
+
+What do we do about this disagreement and other similar situations, both as bystanders (who may not have strong intuitions of their own) and as participants (who do)?
+
+I guess what bystanders typically do (although not necessarily consciously) is evaluate how reliable each party's intuitions are likely to be, and then use that to form a probabilistic mixture of the two sides' positions.The information that go into such evaluations could include things like what cognitive processes likely came up with the intuitions, how many people hold each intuition and how accurate each individual's past intuitions were.
+
+If this is the best we can do (at least in some situations), participants could help by providing more information that might be relevant to the reliability evaluations, and bystanders should pay more conscious attention to such information instead of focusing purely on each side's arguments. The participants could also pretend that they are just bystanders, for the purpose of making important decisions, and base their beliefs on "reliability-adjusted" intuitions instead of their raw intuitions.
+
+Questions: Is this a good idea? Any other ideas about what to do when strong intuitions meet weak arguments?
+
+Related Post: Kaj Sotala's Intuitive differences: when to agree to disagree, which is about a similar problem, but mainly from the participant's perspective instead of the bystander's.

@@ -1,0 +1,31 @@
+Non-Malthusian Scenarios
+
+This is an attempt to list all of the possible ways in which humanity may avoid scenarios where the average standard of living is close to subsistence, in response to Robin Hanson's recent series of posts on Overcoming Bias, where he argues that such an outcome is likely in the long run.
+
+I'll start with six, some suggested by myself, and others collected from comments on Overcoming Bias and Robin's own posts. If anyone provides additional ideas, I'll add them to the list.
+
+(I have a more general point here, BTW, which is that predicting the far future is very difficult. Before thinking that some outcome is inevitable or highly likely, it's a good idea to repeatedly ask oneself "This is all the ways that I can think of why it may fail to come true. Am I sure that all of them have low probability and that I'm not missing anything?" There may be some scenario with a non-negligible probability that your brain simply overlooked when you first asked it.)
+
+Singleton
+
+A world government or superpower imposes a population control policy over the whole world.
+
+Strong Security
+
+Strong defensive technologies and doctrines (such as Mutually Assured Destruction) allow nations, communities, and maybe tribes and families to unilaterally limit their populations within their own borders, while holding off hordes of would-be invaders and immigrants.
+
+Non-Human Capital
+
+Maximizing the wealth and power of a nation requires an optimal mix of human and non-human capital. Nations that fail to adopt population controls find their relative wealth and power fade over time as their mixes deviate from the optimum (i.e., they find themselves spending too much resources on raising humans, and not enough on building machines), and either move to correct this or are taken over by stronger powers. (I believe that historically this was the reason China adopted its one-child policy.)
+
+Unlimited Growth
+
+We don't completely understand the laws of physics, nor the nature of value. There turns out to be some way for economic growth to continue without limit. (Robin himself once wrote "I know of no law limiting economic value per atom" but apparently changed his mind later.)
+
+Selfish Memes
+
+Memes that manage to divert people's resources away from biological reproduction and towards memetic reproduction will have an advantage over memes that don't. On the other hand, genes that manage to block such memes will have an advantage over genes that don't. Memes manage to keep the upper hand in this struggle (or periodically regain the upper hand).
+
+Disease, Warfare, Natural Disasters, Aliens, Keeper of the Simulation
+
+One or more of these come along regularly to keep the human population in check and per capita incomes above subsistence.

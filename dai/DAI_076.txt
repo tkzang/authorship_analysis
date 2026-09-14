@@ -1,0 +1,3 @@
+If contemplating these questions is an optimization process, it's an optimization process with an unknown objective function, and the objective function seems to change over time (i.e., what we consider satisfactory answers change as we learn new things and come up with new insights). But then any process can be described as an optimization process for an unknown objective function that changes over time, so the concept would have no explanatory or practical value. I think when we talk about optimization processes, we usually mean those with known and fixed objective functions.
+
+To put it another way, if we knew what the right criteria is for deciding what is a satisfactory answer to one of these questions, we would be at least halfway done answering it.

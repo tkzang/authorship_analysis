@@ -1,0 +1,9 @@
+Hacking the CEV for Fun and Profit
+
+It's the year 2045, and Dr. Evil and the Singularity Institute have been in a long and grueling race to be the first to achieve machine intelligence, thereby controlling the course of the Singularity and the fate of the universe. Unfortunately for Dr. Evil, SIAI is ahead in the game. Its Friendly AI is undergoing final testing, and Coherent Extrapolated Volition is scheduled to begin in a week. Dr. Evil learns of this news, but there's not much he can do, or so it seems.  He has succeeded in developing brain scanning and emulation technology, but the emulation speed is still way too slow to be competitive.
+
+There is no way to catch up with SIAI's superior technology in time, but Dr. Evil suddenly realizes that maybe he doesn't have to. CEV is supposed to give equal weighting to all of humanity, and surely uploads count as human. If he had enough storage space, he could simply upload himself, and then make a trillion copies of the upload. The rest of humanity would end up with less than 1% weight in CEV. Not perfect, but he could live with that. Unfortunately he only has enough storage for a few hundred uploads. What to do…
+
+Ah ha, compression! A trillion identical copies of an object would compress down to be only a little bit larger than one copy. But would CEV count compressed identical copies to be separate individuals? Maybe, maybe not. To be sure, Dr. Evil gives each copy a unique experience before adding it to the giant compressed archive. Since they still share almost all of the same information, a trillion copies, after compression, just manages to fit inside the available space.
+
+Now Dr. Evil sits back and relaxes. Come next week, the Singularity Institute and rest of humanity are in for a rather rude surprise!

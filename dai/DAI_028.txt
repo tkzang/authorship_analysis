@@ -1,0 +1,7 @@
+Humanity has created many different systems of philosophy which are incompatible with each other. It seems to me that the CFAI approach, if it works at all, should work with any philosophy that is self consistent. Therefore the question of which philosophy do you subscribe to seems a relevent one.
+
+I disagree. There are 6 billion minds on Earth and presumably there will be at least that many post-Singularity. All it would take for resource conflicts to occur is for one mind to want use all matter in the solar system to build a giant optical telescope, and another one to use all matter to simulate an alternate universe. Why would you expect that 6 billion different sets of supergoals can all be achieved without significant resource conflicts?
+
+I guess that means you don't subscribe to communism, which says private property is bad, or democracy, which says that as long as a majority agrees, a tax can be imposed on everyone's property to serve some common purpose. So do you believe that private property is good in itself, or is it good because it leads to good consequences?
+
+Don't you think it would be a good idea, before porting your philosophy into an AI, to examine your philosophy in detail and make sure that is really what you want to port?

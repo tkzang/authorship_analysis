@@ -1,0 +1,3 @@
+Another implementation of VMAC is now available as part of the recently  released Crypto++ 5.5 (http://www.cryptopp.com) It further improves VMAC  performance on 32-bit CPUs with SSE2 instructions, and reaches a peak  performance of 3.7 cycles per byte for VMAC-128 on the Pentium 4, making its  speed almost competitive with UMAC on that CPU (and at a much smaller memory  footprint).
+
+I'd also like to point out that VMAC is very easy to parallelize, and should  be very suitable for future generations of CPUs that may have hundreds or  thousands of ALUs. I think this should be part of future algorithm design  considerations (but fortunately I think I just missed the NIST hash  algorithm requirements comment period).

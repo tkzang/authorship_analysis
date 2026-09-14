@@ -1,0 +1,3 @@
+Ok, but how and why will it modify its own prior? I'm not familiar with Novamente's decision algorithm, but assuming that it is also based on maximization of expected utility, it will never *want* to change its prior, because doing so will always lower expected utility if EU is computed using the current prior rather than the new proposed prior. If it's computed using the new prior instead, then it will *always* want to change its prior, which would be an even worse outcome.
+
+If you still think Novamente will change its prior on its own initiative, can you please give a scenario where it might do that, and explain what the underlying logic of the decision could be?

@@ -1,0 +1,25 @@
+Explicit Optimization of Global Strategy (Fixing a Bug in UDT1)
+
+When describing UDT1 solutions to various sample problems, I've often talked about UDT1 finding the function S* that would optimize its preferences over the world program P, and then return what S* would return, given its input. But in my original description of UDT1, I never explicitly mentioned optimizing S as a whole, but instead specified UDT1 as, upon receiving input X, finding the optimal output Y* for that input, by considering the logical consequences of choosing various possible outputs. I have been implicitly assuming that the former (optimization of the global strategy) would somehow fall out of the latter (optimization of the local action) without having to be explicitly specified, due to how UDT1 takes into account logical correlations between different instances of itself. But recently I found an apparent counter-example to this assumption.
+
+(I think this "bug" also exists in TDT, but I don't understand it well enough to make a definite claim. Perhaps Eliezer or someone else can tell me if TDT correctly solves the sample problem given here.)
+
+Here is the problem. Suppose Omega appears and tells you that you have just been copied, and each copy has been assigned a different number, either 1 or 2. Your number happens to be 1. You can choose between option A or option B. If the two copies choose different options without talking to each other, then each gets $10, otherwise they get $0.
+
+Consider what happens in the original formulation of UDT1. Upon receiving the input "1", it can choose "A" or "B" as output. What is the logical implication of S(1)="A" on the computation S(2)? It's not clear whether S(1)="A" implies S(2)="A" or S(2)="B", but actually neither can be the right answer.
+
+Suppose S(1)="A" implies S(2)="A". Then by symmetry S(1)="B" implies S(2)="B", so both copies choose the same option, and get $0, which is clearly not right.
+
+Now instead suppose S(1)="A" implies S(2)="B". Then by symmetry S(1)="B" implies S(2)="A", so UDT1 is indifferent between "A" and "B" as output, since both have the logical consequence that it gets $10. So it might as well choose "A". But the other copy, upon receiving input "2", would go though this same reasoning, and also output "A".
+
+The fix is straightforward in the case where every agent already has the same source code and preferences. UDT1.1, upon receiving input X, would put that input aside and first iterate through all possible input/output mappings that it could implement and determine the logical consequence of choosing each one upon the executions of the world programs that it cares about. After determining the optimal S* that best satisfies its preferences, it then outputs S*(X).
+
+Applying this to the above example, there are 4 input/output mappings to consider:
+
+S1(1)="A", S1(2)="A"
+S2(1)="B", S2(2)="B"
+S3(1)="A", S3(2)="B"
+S4(1)="B", S4(2)="A"
+Being indifferent between S3 and S4, UDT1.1 picks S*=S3 and returns S3(1)="A". The other copy goes through the same reasoning, also picks S*=S3 and returns S3(2)="B". So everything works out.
+
+What about when there are agents with difference source codes and different preferences? The result here suggests that one of our big unsolved problems, that of generally deriving a "good and fair" global outcome from agents optimizing their own preferences while taking logical correlations into consideration, may be unsolvable, since consideration of logical correlations does not seem powerful enough to always obtain a "good and fair" global outcome even in the single-player case. Perhaps we need to take an approach more like cousin_it's, and try to solve the cooperation problem from the top down. That is, by explicitly specifying a fair way to merge preferences, and simultaneously figuring out how to get agents to join into such a cooperation.

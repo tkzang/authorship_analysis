@@ -1,0 +1,34 @@
+Open Problems Related to Solomonoff Induction
+
+Solomonoff Induction seems clearly "on the right track", but there are a number of problems with it that I've been puzzling over for several years and have not made much progress on. I think I've talked about all of them in various comments in the past, but never collected them in one place.
+
+Apparent Unformalizability of "Actual" Induction
+
+Argument via Tarski's Indefinability of Truth
+
+Informally, the theorem states that arithmetical truth cannot be defined in arithmetic. The theorem applies more generally to any sufficiently strong formal system, showing that truth in the standard model of the system cannot be defined within the system.
+Suppose we define a generalized version of Solomonoff Induction based on some second-order logic. The truth predicate for this logic can't be defined within the logic and therefore a device that can decide the truth value of arbitrary statements in this logical has no finite description within this logic. If an alien claimed to have such a device, this generalized Solomonoff induction would assign the hypothesis that they're telling the truth zero probability, whereas we would assign it some small but positive probability.
+
+Argument via Berry's Paradox
+
+Consider an arbitrary probability distribution P, and the smallest integer (or the lexicographically least object) x such that P(x) < 1/3^^^3 (in Knuth's up-arrow notation). Since x has a short description, a universal distribution shouldn't assign it such a low probability, but P does, so P can't be a universal distribution.
+
+Is Solomonoff Induction "good enough"?
+
+Given the above, is Solomonoff Induction nevertheless "good enough" for practical purposes? In other words, would an AI programmed to approximate Solomonoff Induction do as well as any other possible agent we might build, even though it wouldn't have what we'd consider correct beliefs?
+
+Is complexity objective?
+
+Solomonoff Induction is supposed to be a formalization of Occam's Razor, and it's confusing that the formalization has a free parameter in the form of a universal Turing machine that is used to define the notion of complexity. What's the significance of the fact that we can't seem to define a parameterless concept of complexity? That complexity is subjective?
+
+Is Solomonoff an ideal or an approximation?
+
+Is it the case that the universal prior (or some suitable generalization of it that somehow overcomes the above "unformalizability problems") is the "true" prior and that Solomonoff Induction represents idealized reasoning, or does Solomonoff just "work well enough" (in some sense) at approximating any rational agent?
+
+How can we apply Solomonoff when our inputs are not symbol strings?
+
+Solomonoff Induction is defined over symbol strings (for example bit strings) but our perceptions are made of "qualia" instead of symbols. How is Solomonoff Induction supposed to work for us?
+
+What does Solomonoff Induction actually say?
+
+What does Solomonoff Induction actually say about, for example, whether we live in a creatorless universe that runs on physics? Or the Simulation Argument?

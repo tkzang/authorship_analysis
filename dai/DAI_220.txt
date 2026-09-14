@@ -1,0 +1,43 @@
+Anti-EMH Evidence (and a plea for help)
+
+The debate over EMH should perhaps be framed as "What skill level and assets under management do I need to make it worthwhile to play the markets instead of doing passive investing?" This is a list of anti-EMH evidence (that I personally came across in my relatively short exploration into the public markets), in the sense that they've updated me towards thinking that the levels are not as high as I had thought. (Compare with "Modern Edges are Completely Ridiculous" section in The EMH Aten't Dead.)
+
+Negative extrinsic value for HYLN warrants
+
+Warrants are similar to call options, in that you get the right to purchase shares of common stock at a set price, which is $11.5 for HYLN warrants. However HYLN commons have been trading at $15-$16 above HYLN warrants. There are some complications including that HYLN warrants are not exercisable right now and won't be for a few days to weeks until SEC approves some filings, but it's still hard to explain the negative extrinsic value assuming EMH. (Many SPAC stocks exhibit this, not just HYLN.)
+
+(This was written some days ago and the warrants have since become exercisable, and the price gap has closed.)
+
+Equivalent asset arbitrage
+
+Two securities (symbols to come later as this is still being actively traded) are supposed to give the same dividend stream. The company's official website states that they are meant to be economically equivalent. Until recently these two symbols have been priced very close to each other, but one asset started trading at a premium to the other in the last few weeks, sometimes >10%, with the delta swinging back and forth over this time period creating repeated arbitrage opportunities.
+
+AHT commons versus preferred
+
+There was an exchange offer that expired on Nov 20, where 1 preferred share of AHT could be exchanged for 5.58 shares of AHT common stock, but AHT commons have been trading at way above 1/5.58 the price of AHT preferred and was as high as 1/2 in the last couple of days before expiration (technically Nov 17 and 18, because if you bought on Nov 19 or 20, the shares wouldn't settle in time to participate in the exchange). The risk of the exchange offer being canceled or changed doesn't seem nearly high enough to explain this, and in fact the exchange did go through at the 1:5.58 ratio.
+
+Senseless HTZ spike on DIP news
+
+I previously mentioned this on Open Thread. To quote a commenter (on a paid subscription website):
+
+Contra "not investable", I did sell call options into the spike and made a nice profit, although it was nerve-racking at times.
+
+Three "risk-free" assets that rose 70-200% in 2 months
+
+("Risk-free" in the sense of not being significantly more risky than short term treasuries.) A SPAC is a "blank check" company that gathers money from investors at IPO, puts that money into a trust account (which are invested in short-term treasuries or money-market equivalents), then finds a private company to merge with (in order to deliver the IPO proceeds to that company and to make it publicly traded). Before the merger is finalized, each shareholder can request to "redeem" their shares for their share of the money in the trust account (called NAV or redemption value, typically around $10). Because of this, it's "impossible" to lose money buying a SPAC stock at price=NAV or below as long as you hold it until redemption time. I did this with three SPAC stocks, symbols GMHI (now LAZR), TRNE, and HCAC, and their prices have since gone up 70-200%. I bought these on portfolio margin and financed them with box-spread financing so the opportunity cost of holding them was also very low.
+
+(Technically I bought these at slightly above NAV, and brought their effective prices below NAV by selling November call options against them. I also bought some other SPACs but these three were/are my biggest positions by far.)
+
+How I noticed or came across these
+
+I've been following SPAC stocks (due to hearing about the NKLA debacle from friends and in the financial press) and the discount of warrants relative to commons is frequently mentioned on r/SPACs.
+For the equivalent asset arbitrage I was holding one of the securities in a dividend portfolio (for my parents), saw a big runup in its price, and thought of checking its price relative to its twin (which I knew about from previous research) just in case, and happened to see a significant price difference.
+For HTZ, I was already short HTZ due to an earlier irrational price spike which I read about in the news.
+For AHT, I read an article about the exchange offer and the arbitrage opportunity it represented on SeekingAlpha a couple of months ago, and then observed the opportunity get much bigger in the last few days just before the offer expiration.
+For the "riskless" assets, buying SPACs while they're near NAV to sell later is a strategy frequently mentioned on r/SPACs. I picked these three stocks myself (due to their being related to tech and electric vehicles) and independently thought of selling calls to bring their effective prices below NAV.
+
+Addendum: Help me time the SPAC bubble
+
+With GMHI/LAZR, I sold 80% of my position while the prices were around 16-17, and it's now around 32. This was partly because I thought I had a tendency to close my trades too late and wanted to correct for that, and partly because I had observed a previous SPAC bubble deflate in real time, and every downturn in prices reminded me of that. My initial positions were large enough and these stocks have gone up enough that the remaining positions now represent nearly 50% of the net value of my investment portfolio. So, any advice, either theoretical or practical, on what to do with TRNE and HCAC, which have mergers coming up soon, which (judging from history of other SPACs) implies likely further price increases as long as the current SPAC bubble stays inflated?
+
+(I seem to recall a recent LW post recommending not to time bubbles, but can no longer find it. A link would be appreciated.)

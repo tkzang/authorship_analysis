@@ -1,0 +1,184 @@
+---
+title: "Bitcoin Authorship Analysis MDA"
+date: "2025-04-14"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly 
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# MDA
+
+In this markdown you will find the code for doing an MDA. In our case, the dimensions are authors.
+
+As usual, we start by setting up our workspace.
+
+```{r libraries_data, message = FALSE, warning = FALSE}
+library(tidyr)
+library(tidyverse)
+library(psych)
+library(readxl)
+library(GPArotation)
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(gridExtra)
+
+# Change this according to your system & needs
+forum_posts_folder <- "C:/Users/17390/Desktop/Bitcoin"
+
+# List all .txt files in the folder
+all_files <- list.files(forum_posts_folder, pattern = "\\.txt$", full.names = TRUE)
+
+# Filter files by name
+dai_files <- all_files[grepl("^DAI", basename(all_files))]
+nakamoto_files <- all_files[grepl("^SAT", basename(all_files))]
+
+# read in results excel sheet from MAT
+raw_results <- read_excel("C:/Users/17390/Desktop/Bitcoin/dn_cleaned stats.xlsx")
+```
+
+For the factor analysis, we're actually interested in the output of the MAT, which we have already read in in the chunk above. So we can skip this bit.
+
+```{r preprocessing_text}
+# Function to read and preprocess a file
+read_and_clean <- function(file) {
+  text <- read_file(file)
+  # Remove punctuation except apostrophes, convert to lowercase
+  # text_clean <- tolower(text)
+  # text_clean <- str_replace_all(text_clean, "[^\\w\\s']+", "")  # keep apostrophes
+  # tibble(filename = basename(file), text = text_clean)
+  tibble(filename = basename(file), text = text)
+}
+
+# Read all files per author
+dai_texts <- map_dfr(dai_files, read_and_clean)
+nakamoto_texts <- map_dfr(nakamoto_files, read_and_clean)
+```
+
+This chunk handles the results from the MAT and takes only what we need for further analysis.
+Here, we also check how many dimensions we are interested in given the eigenvalues.
+
+```{r preprocessing_results}
+# Clean data: remove columns
+# note that this doesn't clean up enough for this particular data set
+cleaned_results <- raw_results %>% 
+  select(-Filename,
+         -Tokens,
+         -AWL,
+         -TTR)
+
+# Or you can delete in bulk, depending on what you need to select
+cleaned_results <- raw_results[, -c(1:11)]
+
+# calculate the correlation matrix
+cor_matrix <- cor(cleaned_results, use = "complete.obs")
+
+# Get the eigenvalues from the matrix
+eigenvalues <- eigen(cor_matrix)$values
+
+# Plot the scree plot
+# Note that this is base R and you could do this in ggplot2 if you like
+plot(eigenvalues, 
+     type = "b", 
+     main = "Scree Plot", 
+     xlab = "Number of Dimensions", 
+     ylab = "Eigenvalue")
+abline(h = 1, 
+       col = "red", 
+       lty = 2)
+```
+
+## Factor Analysis
+
+In this bit we do the actual analysis.
+
+```{r factor_analysis}
+## Run factor analysis: oblique rotation
+fa4_oblimin <- fa(cleaned_results, 
+                  nfactors = 4, 
+                  rotate = "oblimin")
+head(fa4_oblimin$scores) # individual text scores
+
+# extract the scores
+TextScores <- as.data.frame(fa4_oblimin$scores)
+
+# Add column wrt text type
+TextScores <- TextScores %>% 
+  mutate(TextType = ifelse(row_number() <= 231, "Dai", "Nakamoto"))
+head(TextScores)
+
+TextScores$TextType <- factor(TextScores$TextType, levels = c("Dai", "Nakamoto"))
+```
+
+## Plotting
+
+Now that we have the scores depending on the level, in this case the authors, we can have a look at them in the form of box plots. 
+
+```{r box_plots}
+# Box plot for MR1
+BPMR1 <- ggplot(TextScores, aes(x = TextType, y = MR1, fill = TextType)) +
+  geom_boxplot()+
+  labs(title = "Boxplot of Dimension 1 by Author", x = "Author", y = "Dimension 1") +
+  theme_light() +
+  scale_fill_manual(values = c("Dai" = "darkgoldenrod1", "Nakamoto" = "darkorchid1")) +
+  labs(fill = "Author")
+#print(BPMR1)
+
+# Box plot for MR2
+BPMR2 <- ggplot(TextScores, aes(x = TextType, y = MR2, fill = TextType)) +
+  geom_boxplot()+
+  labs(title = "Boxplot of Dimension 2 by Author", x = "Author", y = "Dimension 2") +
+  theme_light() +
+  scale_fill_manual(values = c("Dai" = "darkgoldenrod1", "Nakamoto" = "darkorchid1")) +
+  labs(fill = "Author")
+#print(BPMR2)
+
+# Box plot for MR3
+BPMR3 <- ggplot(TextScores, aes(x = TextType, y = MR3, fill = TextType)) +
+  geom_boxplot()+
+  labs(title = "Boxplot of Dimension 3 by Author", x = "Author", y = "Dimension 3") +
+  theme_light() +
+  scale_fill_manual(values = c("Dai" = "darkgoldenrod1", "Nakamoto" = "darkorchid1")) +
+  labs(fill = "Author")
+#print(BPMR3)
+
+# Box plot for MR4
+BPMR4 <- ggplot(TextScores, aes(x = TextType, y = MR4, fill = TextType)) +
+  geom_boxplot()+
+  labs(title = "Boxplot of Dimension 4 by Author", x = "Author", y = "Dimension 4") +
+  theme_light() +
+  scale_fill_manual(values = c("Dai" = "darkgoldenrod1", "Nakamoto" = "darkorchid1")) +
+  labs(fill = "Author")
+#print(BPMR4)
+
+# Arrange them in a 2x2 grid
+grid.arrange(BPMR1, BPMR2, BPMR3, BPMR4, ncol = 2)
+```
+
+So this is the combined version.
+
+```{r box_plots_2}
+TextScores_long <- TextScores %>% #reshape data
+  pivot_longer(cols = starts_with("MR"), 
+               names_to = "Dimension", 
+               values_to = "Score")
+
+# Create the combined plot
+
+combined_plot <- ggplot(TextScores_long, aes(x = TextType, y = Score, fill = TextType)) +
+  geom_boxplot() +
+  facet_wrap(~ Dimension, scales = "free_y") +
+  labs(title = "Boxplots of Dimensions by Author", x = "Author", y = "Score") +
+  theme_light() +
+  scale_fill_manual(values = c("Dai" = "darkorange1", "Nakamoto" = "darkorchid4")) +
+  labs(fill = "Author")
+print(combined_plot)
+```
+
+

@@ -1,0 +1,1 @@
+I don't see what relevance resource limitations have in this context. It's trivial to prove that you'll never increase expected utility by changing your prior, so assuming that Novamente either starts off with this knowledge or quickly discovers it, and that it's smart enough to apply the theorem when deciding whether to change its prior, it will never change its prior.

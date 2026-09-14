@@ -1,0 +1,10 @@
+The behavior of a machine depends on both code and data, in other words on its control algorithms and on its state information. You can protect the code but the data is going to change and cause differences in behavior.
+
+I don't know what kind of memes SI components would find it useful to exchange with each other, but perhaps precomputed chunks of data, algorithmic shortcuts, scientific theories, information about other SIs encountered, philosophical musings, etc. This so called "SI optimization process" is of course actually a complex intellect. How can you know that no meme will arise in ten billion years anywhere in the visible universe that could cause it to change its mind about what kind of optimization it should undertake?
+
+Your question "why, if they are destructive and foreseeable, is it impossible to prevent them" makes you sound like you've never thought about security problems before. It's kind of like asking "why, if the Al Queda are destructive and foreseeable, is it impossible to prevent them?" Well, it may not be impossible, but doing so will certainly impose a cost.
+
+Because the UFSI has a bigger threat to deal with, namely the FSI. And the FSI, once it notices the UFSI, also has a bigger threat to deal with and would be forced to lower its own efforts at ensuring fidelity.
+
+This analysis makes no sense. If you have two spheres expanding at different rates, one of them is eventually going to completely enclose the other, and in this case cutting off all growth of the Friendly SI. And that doesn't even take into consideration the possibility that the UFSI could just eat the FSI.
+

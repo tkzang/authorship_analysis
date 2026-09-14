@@ -1,0 +1,1 @@
+The JSON-RPC HTTP authentication feature in 0.3.3 solves this problem.

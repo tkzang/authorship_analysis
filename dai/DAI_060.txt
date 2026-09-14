@@ -1,0 +1,5 @@
+What does "Solomonoff induction on simple programs and simple conceptual structures" mean? I already know what Solomonoff induction is, but have never heard of the qualification "on simple programs and simple conceptual structures" before.
+
+This I don't understand at all. Do you have a reference for this idea, or a more complete description?
+
+It would be nice if the ur-prior is not arbitrary, but so far no one has proposed a single prior that everyone can agree on. If you disagree, please provide a reference to the prior that we should all use. If you're thinking of the universal enumerable continuous semimeasure (denoted M in the book "An Introduction to Kolmogorov Complexity and Its Applications"), which the reference to Solomonoff induction seems to suggest, unfortunately there are an infinite number of them, one for each universal Turing machine. And even worse, as I mentioned in the thread "escape from simulation", it completely ignores the possibility that the universe is uncomputable, essentially assigning a prior probability of zero to this hypothesis.

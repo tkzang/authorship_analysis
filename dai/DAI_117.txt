@@ -1,0 +1,24 @@
+The Moral Status of Independent Identical Copies
+
+Future technologies pose a number of challenges to moral philosophy. One that I think has been largely neglected is the status of independent identical copies. (By "independent identical copies" I mean copies of a mind that do not physically influence each other, but haven't diverged because they are deterministic and have the same algorithms and inputs.) To illustrate what I mean, consider the following thought experiment. Suppose Omega appears to you and says:
+
+You and all other humans have been living in a simulation. There are 100 identical copies of the simulation distributed across the real universe, and I'm appearing to all of you simultaneously. The copies do not communicate with each other, but all started with the same deterministic code and data, and due to the extremely high reliability of the computing substrate they're running on, have kept in sync with each other and will with near certainty do so until the end of the universe. But now the organization that is responsible for maintaining the simulation servers has nearly run out of money. They're faced with 2 possible choices:
+
+A. Shut down all but one copy of the simulation. That copy will be maintained until the universe ends, but the 99 other copies will instantly disintegrate into dust.
+B. Enter into a fair gamble at 99:1 odds with their remaining money. If they win, they can use the winnings to keep all of the servers running. But if they lose, they have to shut down all copies.
+
+According to that organization's ethical guidelines (a version of utilitarianism), they are indifferent between the two choices and were just going to pick one randomly. But I have interceded on your behalf, and am letting you make this choice instead.
+
+Personally, I would not be indifferent between these choices. I would prefer A to B, and I guess that most people would do so as well.
+
+I prefer A because of what might be called "identical copy immortality" (in analogy with quantum immortality). This intuition says that extra identical copies of me don't add much utility, and destroying some of them, as long as one copy lives on, doesn't reduce much utility. Besides this thought experiment, identical copy immortality is also evident in the low value we see in the "tiling" scenario, in which a (misguided) AI fills the the universe with identical copies of some mind that it thinks is optimal, for example one that is experiencing great pleasure.
+
+Why is this a problem? Because it's not clear how it fits in with the various ethical systems that have been proposed. For example, utilitarianism says that each individual should be valued independently of others, and then added together to form an aggregate value. This seems to imply that each additional copy should receive full, undiscounted value, in conflict with the intuition of identical copy immortality.
+
+Similar issues arise in various forms of ethical egoism. In hedonism, for example, does doubling the number of identical copies of oneself double the value of pleasure one experiences, or not? Why?
+
+A full ethical account of independent identical copies would have to address the questions of quantum immortality and "modal immortality" (cf. modal realism), which I think are both special cases of identical copy immortality. In short, independent identical copies of us exist in other quantum branches, and in other possible worlds, so identical copy immortality seems to imply that we shouldn't care much about dying, as long as some copies of us live on in those other "places". Clearly, our intuition of identical copy immortality does not extend fully to quantum branches, and even less to other possible worlds, but we don't seem to have a theory of why that should be the case.
+
+A full account should also address more complex cases, such as when the copies are not fully independent, or not fully identical.
+
+I'm raising the problem here without having a good idea how to solve it. In fact, some of my own ideas seem to conflict with this intuition in a way that I don't know how to resolve. So if anyone has a suggestion, or pointers to existing work that I may have missed, I look forward to your comments.

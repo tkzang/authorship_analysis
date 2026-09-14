@@ -1,0 +1,16 @@
+Kelly Criteria and Two Envelopes
+
+(This post is motivated by recent discussions here of the two titular topics.)
+
+Suppose someone hands you two envelopes and gives you some information that allows you to conclude either:
+
+The expected ratio of amount of money in the red envelope to the amount in the blue is >1, or
+With probability close to 1 (say 0.999) the amount of money in the red envelope is greater than the amount in the blue.
+In either case, is the conclusion sufficient to imply that one should choose the red envelope over the blue? Obviously not, right? (Well, at least #2 should be obvious, and #1 was recently pointed out by VincentYu.) In any case I will also give some simple counter-examples here:
+Suppose red envelope has $5 and blue envelope has even chance of $1 and $100. E(R/B) = .5(5/1)+.5(5/100) = 2.525 but one would want to choose the blue envelope assuming utility linear in money.
+Red envelope has $100, blue envelope has $99 with probability 0.999 and $1 million with probability 0.001. 
+Notice that it's not sufficient to establish both conclusions at once either (my second example above actually satisfies both).
+
+A common argument for the Kelly Criteria being "optimal" (see page 10 of this review paper recommended by Robin Hanson) is to mathematically establish conclusions 1 and 2, with Kelly Criteria in place of the red envelope and "any other strategy" in place of the blue envelope. However it turns out that "optimal" is not supposed to be normative, as the paper later explains:
+
+So the upshot here is that unless your utility function is actually log in money and not, say, linear (or even superlinear) in the amount of resources under your control, you may not want to adopt the Kelly Criteria even when the other commonly mentioned assumptions are satisfied.

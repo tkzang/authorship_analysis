@@ -1,0 +1,17 @@
+Where are people thinking and talking about global coordination for AI safety?
+
+Many AI safety researchers these days are not aiming for a full solution to AI safety (e.g., the classic Friendly AI), but just trying to find good enough partial solutions that would buy time for or otherwise help improve global coordination on AI research (which in turn would buy more time for AI safety work), or trying to obtain partial solutions that would only make a difference if the world had a higher level of global coordination than it does today.
+
+My question is, who is thinking directly about how to achieve such coordination (aside from FHI's Center for the Governance of AI, which I'm aware of) and where are they talking about it? I personally have a bunch of questions related to this topic (see below) and I'm not sure what's a good place to ask them. If there's not an existing online forum, it seems a good idea to start thinking about building one (which could perhaps be modeled after the AI Alignment Forum, or follow some other model).
+
+1. What are the implications of the current US-China trade war?
+
+2. Human coordination ability seems within an order of magnitude of what's needed for AI safety. Why the coincidence? (Why isn't it much higher or lower?)
+
+3. When humans made advances in coordination ability in the past, how was that accomplished? What are the best places to apply leverage today?
+
+4. Information technology has massively increased certain kinds of coordination (e.g., email, eBay, Facebook, Uber), but at the international relations level, IT seems to have made very little impact. Why?
+
+5. Certain kinds of AI safety work could seemingly make global coordination harder, by reducing perceived risks or increasing perceived gains from non-cooperation. Is this a realistic concern?
+
+6. What are the best intellectual tools for thinking about this stuff? Just study massive amounts of history and let one's brain's learning algorithms build what models it can?

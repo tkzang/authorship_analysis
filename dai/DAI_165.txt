@@ -1,0 +1,5 @@
+"Hide comments in downvoted threads" is now active
+
+I just found out that a new website feature was implemented 2 days ago. If a comment is voted to -4 or below, it and all replies and downstream comments from it will be hidden from Recent Comments, and further replies in that subthread will incur 5 karma points penalty. The hiding, but not karma penalty, applies retroactively to comments in that subthread posted before the -4 vote.
+
+This seems to be worth a discussion post since most people are probably still voting things to below -3 without knowing the new consequences of doing so.

@@ -1,0 +1,9 @@
+Reframing the Problem of AI Progress
+
+Stuart Armstrong paraphrasing a typical AI researcher
+
+I forgot to mention in my last post why "AI risk" might be a bad phrase even to denote the problem of UFAI. It brings to mind analogies like physics catastrophes or astronomical disasters, and lets AI researchers think that their work is ok as long as they have little chance of immediately destroying Earth. But the real problem we face is how to build or become a superintelligence that shares our values, and given that this seems very difficult, any progress that doesn't contribute to the solution but brings forward the date by which we must solve it (or be stuck with something very suboptimal even if it doesn't kill us), is bad. The word "risk" connotes a small chance of something bad suddenly happening, but slow steady progress towards losing the future is just as worrisome.
+
+The usual way of stating the problem also invites lots of debate that are largely beside the point (as far as determining how serious the problem is), like whether intelligence explosion is possible, or whether a superintelligence can have arbitrary goals, or how sure we are that a non-Friendly superintelligence will destroy human civilization. If someone wants to question the importance of facing this problem, they really instead need to argue that a superintelligence isn't possible (not even a modest one), or that the future will turn out to be close to the best possible just by everyone pushing forward their own research without any concern for the big picture, or perhaps that we really don't care very much about the far future and distant strangers and should pursue AI progress just for the immediate benefits.
+
+(This is an expanded version of a previous comment.)

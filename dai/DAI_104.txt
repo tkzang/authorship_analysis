@@ -1,0 +1,19 @@
+An Alternative Approach to AI Cooperation
+
+[This post summarizes my side of a conversation between me and cousin_it, and continues it.]
+
+Several people here have shown interest in an approach to modeling AI interactions that was suggested by Eliezer Yudkowsky: assume that AIs can gain common knowledge of each other's source code, and explore the decision/game theory that results from this assumption.
+
+In this post, I'd like to describe an alternative approach*, based on the idea that two or more AIs may be able to securely merge themselves into a joint machine, and allow this joint machine to make and carry out subsequent decisions. I argue that this assumption is as plausible as that of common knowledge of source code, since it can be built upon the same technological foundation that has been proposed to implement common knowledge of source code. That proposal, by Tim Freeman, was this:
+
+Notice that the same technology can be used for two AIs to merge into a single machine running source code S (which they both agreed upon). All that needs to be changed from the above process is for B to also shut down and give all of its resources to A' after A' is constructed. Not knowing if there is a standard name for this kind of technology, I've given it the moniker "secure joint construction."
+
+I conjecture that the two approaches are equal in power, in the sense that any cooperation made possible by the common knowledge of source code is also possible given the secure merger ability, and vice versa. This is because under the assumption of common knowledge of source code, the likely outcome is for all AIs to modify themselves into using the same decision algorithm, with that algorithm making and carrying out subsequent decisions. The collection of these cooperative machines running the same algorithm can be viewed as one distributed machine, thus suggesting the equivalence of the two approaches.
+
+It is conceptually simpler to assume that AIs will merge into a centralized joint machine. This causes no loss of generality, since if for some reason the AIs find it more advantageous to merge into a distributed joint machine, they will surely come up with solutions to distributed computing problems like friend-or-foe recognition and consensus by themselves. The merger approach allows such issues to be abstracted away as implementation details of the joint machine.
+
+Another way to view these two approaches is that they each offers a way for AIs to enforce agreements, comparable with the enforcement of contracts by a court, except that the assumed technologies allow the AIs to enforce agreements without a trusted third party, and with potentially higher assurance of compliance. This allows most AI-AI interactions to be modeled using cooperative game theory, which assumes such enforcement of agreements.
+
+* My original proposal, posted on SL4, was that AIs would use Bayesian aggregation to determine the decision algorithm of their joint machine. I later realized that cooperative game theory is a better fit, because only a cooperative game solution ensures that each AI has sufficient incentives to merge.
+
+[It appears to me that cousin_it and I share many understandings, while Vladimir Nesov and Eliezer seem to have ideas closer to each other and to share certain insights that I am not able to access. I hope this post encourages them to clarify their ideas relative to those of cousin_it and I.]

@@ -1,0 +1,11 @@
+Another Argument Against Eliezer's Meta-Ethics
+
+I think I've found a better argument that Eliezer's meta-ethics is wrong. The advantage of this argument is that it doesn't depend on the specifics of Eliezer's notions of extrapolation or coherence.
+
+Eliezer says that when he uses words like "moral", "right", and "should", he's referring to properties of a specific computation. That computation is essentially an idealized version of himself (e.g., with additional resources and safeguards). We can ask: does Idealized Eliezer (IE) make use of words like "moral", "right", and "should"? If so, what does IE mean by them? Does he mean the same things as Base Eliezer (BE)? None of the possible answers are satisfactory, which implies that Eliezer is probably wrong about what he means by those words.
+
+1. IE does not make use of those words. But this is intuitively implausible.
+
+2. IE makes use of those words and means the same things as BE. But this introduces a vicious circle. If IE tries to determine whether "Eliezer should save person X" is true, he will notice that it's true if he thinks it's true, leading to Löb-style problems.
+
+3. IE's meanings for those words are different from BE's. But knowing that, BE ought to conclude that his meta-ethics is wrong and morality doesn't mean what he thinks it means.

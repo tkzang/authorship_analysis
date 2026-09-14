@@ -1,0 +1,15 @@
+The Preference Utilitarian's Time Inconsistency Problem
+
+In May of 2007, DanielLC asked at Felicifa, an "online utilitarianism community":
+
+Indeed, if we were to program a super-intelligent AI to use the utility function U(w) = sum of w's utilities according to people (i.e., morally relevant agents) who exist in world-history w, the AI might end up killing everyone who is alive now and creating a bunch of new people whose preferences are more easily satisfied, or just use its super intelligence to persuade us to be more satisfied with the universe as it is.
+
+Well, that can't be what we want. Is there an alternative formulation of preference utilitarianism that doesn't exhibit this problem? Perhaps. Suppose we instead program the AI to use U'(w) = sum of w's utilities according to people who exist at the time of decision. This solves the Daniel's problem, but introduces a new one:  time inconsistency.
+
+The new AI's utility function depends on who exists at the time of decision, and as that time changes and people are born and die, its utility function also changes. If the AI is capable of reflection and self-modification, it should immediately notice that it would maximize its expected utility, according to its current utility function, by modifying itself to use U''(w) = sum of w's utilities according to people who existed at time T0, where T0 is a constant representing the time of self-modification.
+
+The AI is now reflectively consistent, but is this the right outcome? Should the whole future of the universe be shaped only by the preferences of those who happen to be alive at some arbitrary point in time? Presumably, if you're a utilitarian in the first place, this is probably not the kind of utilitarianism that you'd want to subscribe to.
+
+So, what is the solution to this problem? Robin Hanson's approach to moral philosophy may work. It tries to take into account everyone's preferences—those who lived in the past, those who will live in the future, and those who have the potential to exist but don't—but I don't think he has worked out (or written down) the solution in detail. For example, is the utilitarian AI supposed to sum over every logically possible utility function and weigh them equally? If not, what weighing scheme should it use?
+
+Perhaps someone can follow up Robin's idea and see where this approach leads us? Or does anyone have other ideas for solving this time inconsistency problem?

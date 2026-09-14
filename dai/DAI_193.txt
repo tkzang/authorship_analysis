@@ -1,0 +1,13 @@
+Some disjunctive reasons for urgency on AI risk
+
+(This has been sitting in my drafts folder since August 2017. Robin Hanson's recent How Lumpy AI Services? made me think of it again. I'm not sure why I didn't post it back then. I may have wanted to add more reasons, details and/or citations, but at this point it seems better to just post it as is. Apologies to those who may have come up with some of these arguments earlier.)
+
+Robin Hanson recently wrote, "Recently AI risk has become something of an industry, with far more going on than I can keep track of. Many call working on it one of the most effectively altruistic things one can possibly do. But I've searched a bit and as far as I can tell that foom scenario is still the main reason for society to be concerned about AI risk now." (By "foom scenario" he means a local intelligence explosion where a single AI takes over the world.) In response, I list the following additional reasons to work urgently on AI alignment.
+
+1. Property rights are likely to not hold up in the face of large capability differentials between humans and AIs, so even if the intelligence explosion is likely global as opposed to local, that doesn't much reduce the urgency of working on AI alignment.
+
+2. Making sure an AI has aligned values and strong controls against value drift is an extra constraint on the AI design process. This constraint appears likely to be very costly at both design and run time, so if the first human level AIs deployed aren't value aligned, it seems very difficult for aligned AIs to catch up and become competitive.
+
+3. AIs' control of the economy will grow over time. This may happen slowly in their time frame but quickly in ours, leaving little time to solve value alignment problems before human values are left with a very small share of the universe, even if property rights hold up.
+
+4. Once we have human-level AIs and it's really obvious that value alignment is difficult, superintelligent AIs may not be far behind. Superintelligent AIs can probably find ways to bend people's beliefs and values to their benefit (e.g., create highly effective forms of propaganda, cults, philosophical arguments, and the like). Without an equally capable, value-aligned AI to protect me, even if my property rights are technically secure, I don't know how I would secure my mind.

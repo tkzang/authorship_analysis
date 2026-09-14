@@ -1,0 +1,27 @@
+Why the beliefs/values dichotomy?
+
+I'd like to suggest that the fact that human preferences can be decomposed into beliefs and values is one that deserves greater scrutiny and explanation. It seems intuitively obvious to us that rational preferences must decompose like that (even if not exactly into a probability distribution and a utility function), but it's less obvious why.
+
+The importance of this question comes from our tendency to see beliefs as being more objective than values. We think that beliefs, but not values, can be right or wrong, or at least that the notion of right and wrong applies to a greater degree to beliefs than to values. One dramatic illustration of this is in Eliezer Yudkowsky's proposal of Coherent Extrapolated Volition, where an AI extrapolates the preferences of an ideal humanity, in part by replacing their "wrong" beliefs with "right" ones. On the other hand, the AI treats their values with much more respect.
+
+Since beliefs and values seem to correspond roughly to the probability distribution and the utility function in expected utility theory, and expected utility theory is convenient to work with due to its mathematical simplicity and the fact that it's been the subject of extensive studies, it seems useful as a first step to transform the question into "why can human decision making be approximated as expected utility maximization?"
+
+I can see at least two parts to this question:
+
+Why this mathematical structure?
+Why this representation of the mathematical structure?
+Not knowing how to answer these questions yet, I'll just write a bit more about why I find them puzzling.
+
+Why this mathematical structure?
+
+It's well know that expected utility maximization can be derived from a number of different sets of assumptions (the so called axioms of rationality) but they all include the assumption of Independence in some form. Informally, Independence says that what you prefer to happen in one possible world doesn't depend on what you think happens in other possible worlds. In other words, if you prefer A&C to B&C, then you must prefer A&D to B&D, where A and B are what happens in one possible world, and C and D are what happens in another.
+
+This assumption is central to establishing the mathematical structure of expected utility maximization, where you value each possible world separately using the utility function, then take their weighted average. If your preferences were such that A&C > B&C but A&D < B&D, then you wouldn't be able to do this.
+
+It seems clear that our preferences do satisfy Independence, at least approximately. But why? (In this post I exclude indexical uncertainty from the discussion, because in that case I think Independence definitely doesn't apply.) One argument that Eliezer has made (in a somewhat different context) is that if our preferences didn't satisfy Independence, then we would become money pumps. But that argument seems to assume agents who violate Independence, but try to use expected utility maximization anyway, in which case it wouldn't be surprising that they behave inconsistently. In general, I think being a money pump requires having circular (i.e., intransitive) preferences, and it's quite possible to have transitive preferences that don't satisfy Independence (which is why Transitivity and Independence are listed as separate axioms in the axioms of rationality).
+
+Why this representation?
+
+Vladimir Nesov has pointed out that if a set of preferences can be represented by a probability function and a utility function, then it can also be represented by two probability functions. And furthermore we can "mix" these two probability functions together so that it's no longer clear which one can be considered "beliefs" and which one "values". So why do we have the particular representation of preferences that we do?
+
+Is it possible that the dichotomy between beliefs and values is just an accidental byproduct of our evolution, perhaps a consequence of the specific environment that we're adapted to, instead of a common feature of all rational minds? Unlike the case with anticipation, I don't claim that this is true or even likely here, but it seems to me that we don't understand things well enough yet to say that it's definitely false and why that's so.

@@ -1,0 +1,13 @@
+What's wrong with these analogies for understanding Informed Oversight and IDA?
+
+In Can HCH epistemically dominate Ramanujan? Alex Zhu wrote:
+
+And I answered:
+
+And then I followed up my own comment with:
+
+No one answered my comments with either a confirmation or denial, as to whether these guesses of how to understand Universality / Informed Oversight and IDA are correct. I'm surfacing this question as a top-level post because if "Informed Oversight = reverse engineering" and "IDA = programming by nudging" are good analogies for understanding Informed Oversight and IDA, it seems to have pretty significant implications.
+
+In particular it seems to imply that there's not much hope for IDA to be competitive with ML-in-general, because if IDA is analogous to a highly constrained method of "manual" programming, that seems unlikely to be competitive with less constrained methods of "manual" programming (i.e., AIs designing and programming more advanced AIs in more general ways, similar to how humans do most programming today), which itself is presumably not competitive with general (unconstrained-by-safety) ML (otherwise ML would not be the competitive benchmark).
+
+If these are not good ways to understand IO and IDA, can someone please point out why?

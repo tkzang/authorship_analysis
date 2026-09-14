@@ -1,0 +1,3 @@
+I think you probably misunderstood the paper. The purpose of searching for new theorem provers is to speed up the theorem proving, not to be able to prove new theorems that were unprovable using the old theorem prover. So the Gödel Machine only needs to prove that the new prover will prove a theorem if and only if the current prover will. I don't think this should be a problem.
+
+Georg Cantor and Emil Post (who in the 20s proved results similar to Gödel, Church, and Turing but didn't publish them) went insane. Gödel and Turing both killed themselves. A rather worrisome correlation between the diagonalization argument and mental breakdown...

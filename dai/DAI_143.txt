@@ -1,0 +1,41 @@
+Outline of possible Singularity scenarios (that are not completely disastrous)
+
+Suppose we could look into the future of our Everett branch and pick out those sub-branches in which humanity and/or human/moral values have survived past the Singularity in some form. What would we see if we then went backwards in time and look at how that happened? Here's an attempt to answer that question, or in other words to enumerate the not completely disastrous Singularity scenarios that seem to have non-negligible probability. Note that the question I'm asking here is distinct from "In what direction should we try to nudge the future?" (which I think logically ought to come second).
+
+Uploading first
+Become superintelligent (self-modify or build FAI), then take over the world
+Take over the world as a superorganism
+self-modify or build FAI at leisure
+(Added) stasis
+Competitive upload scenario
+(Added) subsequent singleton formation
+(Added) subsequent AGI intelligence explosion
+no singleton
+IA (intelligence amplification) first
+Clone a million von Neumanns (probably government project)
+Gradual genetic enhancement of offspring (probably market-based)
+Pharmaceutical
+Direct brain/computer interface
+What happens next? Upload or code?
+Code (de novo AI) first
+Scale of project
+International
+National
+Large Corporation
+Small Organization
+Secrecy - spectrum between
+totally open
+totally secret
+Planned Friendliness vs "emergent" non-catastrophe
+If planned, what approach?
+"Normative" - define decision process and utility function manually
+"Meta-ethical" - e.g., CEV
+"Meta-philosophical" - program AI how to do philosophy
+If emergent, why?
+Objective morality
+Convergent evolution of values
+Acausal game theory
+Standard game theory (e.g., Robin's idea that AIs in a competitive scenario will respect human property rights due to standard game theoretic considerations)
+Competitive vs. local FOOM
+(Added) Simultaneous/complementary development of IA and AI
+Sorry if this is too cryptic or compressed. I'm writing this mostly for my own future reference, but perhaps it could be expanded more if there is interest. And of course I'd welcome any scenarios that may be missing from this list.

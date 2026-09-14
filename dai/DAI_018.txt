@@ -1,0 +1,1 @@
+I should add that this advice also applies to cryptographic schemes that use randomness that's not in the form of external nonces. For example, when using DSA, the practice of precomputing g^k mod p should be abandoned, and the random number k should be generated only after the message to be signed has been fixed.

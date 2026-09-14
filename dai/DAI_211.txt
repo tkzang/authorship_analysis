@@ -1,0 +1,21 @@
+Don't depend on others to ask for explanations
+
+I'm often reluctant to ask for explanations on LW, and to typical-mind a bit I think this may be true of others as well. This suggests that when you're writing something for public consumption, it's better to err on the side of too much rather than too little explanation. If there's too much explanation, people can just skip over it (and you can make it easier by putting explanations that may be "too much" in parentheses or footnotes), but if there's too little explanation people may never ask for it. So in the future if you ever think something like, "I'll just write down what I think, and if people don't understand why, they can ask" I hope this post will cause you to have a second thought about that.
+
+To make it clearer that this problem can't be solved by just asking or training people to be less reluctant to ask for explanations, I think there are often "good" reasons for such reluctance. Here's a list that I came up with during a previous discussion with Raymond Arnold (Raemon):
+
+1. I already spent quite some time trying to puzzle out the explanation, and asking is like admitting defeat.
+
+2. If there is a simple explanation that I reasonably could have figured out without asking, I look bad by asking.
+
+3. It's forcing me to publicly signal interest, and maybe I don't want to do that.
+
+4. Related to 3, it's forcing me to raise the status of the person I'm asking, by showing that I'm interested in what they're saying. (Relatedly, I worry this might cause people to withhold explanations more often than they should.)
+
+5. If my request is ignored or denied, I would feel bad, perhaps in part because it seems to lower my status.
+
+6. I feel annoyed that the commenter didn't value my time enough to preemptively include an explanation, and therefore don't want to interact further with them.
+
+7. My comment requesting an explanation is going to read by lots of people for whom it has no value, and I don't want to impose that cost on them, or make them subconsciously annoyed at me, etc.
+
+8. By the time the answer comes, the topic may have left my short term memory, or I may not be that interested anymore.

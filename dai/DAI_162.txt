@@ -1,0 +1,13 @@
+Cynical explanations of FAI critics (including myself)
+
+Lately I've been pondering the fact that while there are many critics of SIAI and its plan to form a team to build FAI, few of us seem to agree on what SIAI or we should do instead. Here are some of the alternative suggestions offered so far:
+
+work on computer security
+work to improve laws and institutions
+work on mind uploading
+work on intelligence amplification
+work on non-autonomous AI (e.g., Oracle AI, "Tool AI", automated formal reasoning systems, etc.)
+work on academically "mainstream" AGI approaches or trust that those researchers know what they are doing
+stop worrying about the Singularity and work on more mundane goals
+Given that ideal reasoners are not supposed to disagree, it seems likely that most if not all of these alternative suggestions can also be explained by their proponents being less than rational. Looking at myself and my suggestion to work on IA or uploading, I've noticed that I have a tendency to be initially over-optimistic about some technology and then become gradually more pessimistic as I learn more details about it, so that I end up being more optimistic about technologies that I'm less familiar with than the ones that I've studied in detail. (Another example of this is me being initially enamoured with Cypherpunk ideas and then giving up on them after inventing some key pieces of the necessary technology and seeing in more detail how it would actually have to work.)
+I'll skip giving explanations for other critics to avoid offending them, but it shouldn't be too hard for the reader to come up with their own explanations. It seems that I can't trust any of the FAI critics, including myself, nor do I think Eliezer and company are much better at reasoning or intuiting their way to a correct conclusion about how we should face the apparent threat and opportunity that is the Singularity. What useful implications can I draw from this? I don't know, but it seems like it can't hurt to pose the question to LessWrong. 

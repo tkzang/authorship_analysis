@@ -1,0 +1,7 @@
+AI ethics vs AI alignment
+
+Since there is often confusion about the difference between "AI ethics" and "AI alignment", I thought I'd make this handy guide.
+
+AI ethics
+
+AI alignment

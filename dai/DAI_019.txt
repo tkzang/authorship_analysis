@@ -1,0 +1,7 @@
+I think as a writer of cryptographic software, instead of checking whether  your software is running inside a VM, the safe thing to do would be to  assume that it is, and take appropriate defensive measures. But I'm curious,  what does your software do differently if it detects that it's running in a  VM?
+
+Here's the simplest application I can imagine that would be affected by this  problem: a chat program with messages authenticated by a MAC using a counter  as the nonce. Say you're the user of such a program, and you roll back your  VM because your system crashed. As soon as you type the next message (or  maybe the next few messages depending on the details of the MAC algorithm)  and send it out, an attacker could start impersonating you to the other  party.
+
+In some applications k may be pre-generated in order to precompute g^k mod  p. As I mentioned earlier this practice would have to be abandoned.
+
+Also, Hal Finney mentioned that generating random numbers after fixing the  message may not be sufficient, if the RNG does not incorporate new entropy  into its state after being rolled back and before responding to the next  request.

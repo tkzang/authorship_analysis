@@ -1,0 +1,7 @@
+If you want to maintain a count across reboots, you have to write the counter to disk. Then you'd have to worry about file system security, detecting when the disk might have been restored from an earlier backup, etc. I'd bet there are very few applications that do this securely. Most applications that use counters probably don't bother to save them, and instead, upon reboot either set their counters to random values or discard all shared symmetric keys and re-establish them (in which case random nonces are probably used as part of of the key agreement protocols).
+
+Besides reboots, we now also have the possibility of our software running inside virtual machines (e.g. VMware), where even volatile memory can be rolled back to earlier checkpoints.
+
+You might say that your PRF(hash,"nonce") isn't PRF(hash,constant), and
+
+Perhaps from a theoretical perspective generating random numbers is much harder than counting, but from a practical perspective, in many situations random number generation is a solved problem whereas counting isn't. Modern operating systems provide facilities to easily generate random numbers of cryptographic quality. I think the above discussion implies that OS support is also needed to easily maintain a count of cryptographic quality, but this support isn't available yet.

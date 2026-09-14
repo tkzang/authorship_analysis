@@ -1,0 +1,38 @@
+Reasons for someone to "ignore" you
+
+I often feel guilty for ignoring other people's comments or questions, and frustrated when other people seem to be ignoring me. If I can't indicate to someone exactly why I'm not answering, or can't receive such an indication myself, I can at least help my future selves and others obtain a better probability distribution over such reasons. To that end, I'm listing all of the reasons I can think of for someone to not respond to a comment/question, to save the effort of regenerating these hypotheses from scratch each time and prevent the possibility of failing to consider the actual reason. Note that these are not meant to be mutually exclusive.
+
+They haven't checked their inbox yet.
+They got too many responses in their inbox and didn't pay enough attention to yours.
+They are temporarily too busy to respond.
+They were planning to respond but then forgot to.
+They don't understand the comment yet and are still trying.
+They've stopped trying to understand the comment and don't expect further discussion to resolve the confusion.
+They think it's obvious that they agree.
+They think it's obvious that they disagree.
+They disagree and are planning to write up the reasons later.
+They don't know whether to agree or disagree and are still thinking about it.
+They think all useful information has been exchanged and it's not worth another comment just to indicate final agreement/disagreement.
+They think you just want to express your opinion and don't care what they think.
+They are tired of the discussion and don't want to think about it any more.
+The comment shows a level of intelligence and/or rationality and/or knowledge that makes it not worthwhile for them to engage you.
+They already addressed your question or point before but you missed it or didn't get it.
+They don't know how to answer your question and are too embarrassed to admit it.
+They interpreted your question as being addressed to the public rather than to them personally.
+They think most people already know the answer (or don't care to know) and don't want to bother answering just for you or a few other people.
+They think you are mainly signaling/status-seeking instead of truth-seeking.
+They are mainly signaling/status-seeking (perhaps subconsciously) and think not responding is optimal for that.
+They can't see how to respond honestly without causing or prolonging a personal enmity.
+They consider you a troll or potential troll and don't want to reinforce you with attention.
+They have an emotional aversion against talking to you.
+They have some other instrumental reason for not responding.
+Suggested by shminux: You're on a list of LWers they never reply to, because a number of prior conversations with you were invariably futile for one or more of the reasons described above, and their estimate of any future conversation going any better is very low.
+Suggested by wedrifid: Technical difficulties. They first read your comment via a mobile device, composed (mentally) a reply that would take too long to type on that medium and two days later they either forget to type it out via keyboard, no longer care about the subject or think that a late reply would be inappropriate given developments in the conversation.
+Suggested by wedrifid: Previous comments by them in the thread had been downvoted or otherwise opposed and they choose to accede to the implied wishes of the community rather than try to fight it or defy it.
+Suggested by cata: Not answering promptly caused them to feel guilty, which caused more delay and more guilt, so they never respond to hide their shame.
+Suggested by wedrifid: They think your comment missed the point of the context and so doesn't make sense but it is not important enough to embarrass you by explaining or challenging.
+Suggested by Morendil: Your post/comment didn't contain a single question mark, so there's no call to answer.
+Suggesetd by sixes_and_sevens: They think the discussion is going off topic.
+Suggested by Airedale: They're purposefully trying to disengage early rather than getting into a fight about who has the "last word" on the subject, e.g., on some level they may want to respond or even to "win" the exchange, but they're purposefully telling themselves to step away from the computer.
+
+If I missed any reasons (that happen often enough to be worth including in this list), please give them in the comments. See also this related comment.

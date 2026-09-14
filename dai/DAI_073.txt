@@ -1,0 +1,15 @@
+One of the things I'd like most from a friendly SI is answers to certain questions. If I meet an SI and it can't answer these questions or at least explain why they can't be answered, I would be really disappointed. But it's hard to imagine how an optimization process can answer them (unless the answers are programmed into it, or it's doing something like "search for the string that maximizes intellectual satisfaction for the questioner"), which makes me think that intelligence != optimization process. Does anyone have a counterargument?
+
+Here are my questions:
+
+How does math really work? Why do we believe that P!=NP even though we don't have a proof one way or the other?
+
+How does induction really work? Why do we intuitively know that, contra Solomonoff Induction, we shouldn't believe in the non-existence of halting-problem oracles no matter what evidence we may see?
+
+Is there such a thing as absolute complexity (as opposed to complexity relative to a Turing machine or some other construct)?
+
+How does qualia work? Why do certain patterns of neuron firings translate into sensations of pain, and other patterns into pleasure?
+
+How does morality work? If I take a deterministic program that simulates a neuron firing pattern that represents pleasure, and run it twice, is that twice as good as running it once? Or good at all?
+
+Why am I me, and not one of the billions of other people on Earth, or one of the many people in other parts of the multiverse?

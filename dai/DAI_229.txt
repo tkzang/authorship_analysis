@@ -1,0 +1,29 @@
+AI doing philosophy = AI generating hands?
+
+I've been playing around with Stable Diffusion recently, and an analogy occurred to me between today's AI's notoriously bad generation of hands and future AI's potentially bad reasoning about philosophy.
+
+In case you aren't already familiar, currently available image generation AIs are very prone to outputting bad hands, e.g., ones with four or six fingers, or two thumbs, or unnatural poses, or interacting with other objects in very strange ways. Perhaps what's especially striking is how bad AIs are at hands relative to other image generation capabilities, thus serving as a cautionary tale about differentially decelerating philosophy relative to other forms of intellectual progress, e.g., scientific and technological progress.
+
+Is anyone looking into differential artistic progress as a possible x-risk? /jk
+
+Some explanations I've seen for why AI is bad at hands:
+
+it's hard for AIs to learn hand generation because of how many poses a hand can make, how many different ways it can interact with other objects, and how many different viewing angles AIs need to learn to reproduce
+each 2D image provides only partial information about a hand (much of it is often obscured behind other objects or parts of itself)
+most hands in the training data are very low resolution (a tiny part of the overall image) and thus not helpful for training AI
+the proportion of hands in the training set is too low for the AI to devote much model capacity to hand generation ("misalignment" between the loss function and what humans care about probably also contributes to this)
+AI developers just haven't collected and trained AI on enough high quality hand images yet
+
+There are news articles about this problem going back to at least 2022, and I can see a lot of people trying to solve it (on Reddit, GitHub, arXiv) but progress has been limited. Straightforward techniques like prompt engineering and finetuning do not seem to help much. Here are 2 SOTA techniques, to give you a glimpse of what the technological frontier currently looks like (at least in open source):
+
+1. Post-process images with a separate ML-based pipeline to fix hands after initial generation. This creates well-formed hands but doesn't seem to take interactions with other objects into (sufficient or any) consideration.
+
+2. If you're not trying to specifically generate hands, but just don't want to see incidentally bad hands in images with humans in them, get rid of all hand-related prompts, LoRAs, textual inversions, etc., and just putting "hands" in the negative prompt. This doesn't eliminate all hands but reduces the number/likelihood of hands in the picture and also makes the remaining ones look better. (The idea behind this is that it makes the AI "try less hard" to generate hands, and perhaps focus more on central examples that it has more training on. I was skeptical when first reading about this on Reddit, especially after trying many other similar tips that failed to accomplish anything, but this one actually does seem to work, at least much of the time.)
+
+Of course generating hands is ultimately not a very hard problem. Hand anatomy and its interactions with other objects pose no fundamental mysteries. Bad hands are easy for humans to recognize and therefore we have quick and easy feedback for how well we're solving the problem. We can use our explicit understanding of hands to directly help solve the problem (solution 1 above used at least the fact that hands are compact 3D objects), or just provide the AI with more high quality training data (physically taking more photos of hands if needed) until it recognizably fixed itself.
+
+What about philosophy? Well, scarcity of existing high quality training data, check. Lots of unhelpful data labeled "philosophy", check. Low proportion of philosophy in the training data, check. Quick and easy to generate more high quality data, no. Good explicit understanding of the principles involved, no. Easy to recognize how well the problem is being solved, no. It looks like with philosophy we've got many of the factors that make hand generation a hard problem for now, and none of the factors that make it probably not that hard in the longer run.
+
+In a parallel universe with a saner civilization, there must be tons of philosophy professors workings with tons of AI researchers to try to improve AI's philosophical reasoning. They're probably going on TV and talking about 养兵千日，用兵一时 (feed an army for a thousand days, use it for an hour) or how proud they are to contribute to our civilization's existential safety at this critical time. There are probably massive prizes set up to encourage public contribution, just in case anyone had a promising out of the box idea (and of course with massive associated infrastructure to filter out the inevitable deluge of bad ideas). Maybe there are extensive debates and proposals about pausing or slowing down AI development until metaphilosophical research catches up.
+
+In the meantime, back in our world, there's one person, self-taught in AI and philosophy, writing about a crude analogy between different AI capabilities. In the meantime, there are more people visibly working to improve AI's hand generation than AI's philosophical reasoning.

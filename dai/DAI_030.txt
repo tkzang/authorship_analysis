@@ -1,0 +1,3 @@
+I agree with that. My question was, if some selfish person was to try to build an AI that favors the creator, can the supergoal remain stable as the AI modified itself? I assume that no one would be stupid enough to try to build a purely selfish AI. (That may be the unintentional outcome but it seems unlikely that anyone would have it as the goal.)
+
+What kind of AI are you trying to build? A uniformly altruistic one, like Eliezer's Friendly AI, or a non-uniformly altruistic one that favors some people over others?

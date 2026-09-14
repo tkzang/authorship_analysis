@@ -1,0 +1,17 @@
+Tips and Tricks for Answering Hard Questions
+
+I've collected some tips and tricks for answering hard questions, some of which may be original, and others I may have read somewhere and forgotten the source of. Please feel free to contribute more tips and tricks, or additional links to the sources or fuller explanations.
+
+Don't stop at the first good answer. We know that human curiosity can be prematurely satiated. Sometimes we can quickly recognize a flaw in an answer that initially seemed good, but sometimes we can't, so we should keep looking for flaws and/or better answers.
+
+Explore multiple approaches simultaneously. A hard question probably has multiple approaches that are roughly equally promising, otherwise it wouldn't be a hard question (well, unless it has no promising approaches). If there are several people attempting to answer it, they should explore different approaches. If you're trying to answer it alone, it makes sense to switch approaches (and look for new approaches) once a while.
+
+Trust your intuitions, but don't waste too much time arguing for them. If several people are attempting to answer the same question and they have different intuitions about how best to approach it, it seems efficient for each to rely on his or her intuition to choose the approach to explore. It only makes sense to spend a lot of time arguing for your own intuition if you have some reason to believe that other people's intuitions are much worse than yours.
+
+Go meta. Instead of attacking the question directly, ask "How should I answer a question like this?" It seems that when people are faced with a question, even one that has stumped great minds for ages, many just jump in and try to attack it with whatever intellectual tools they have at hand. For really hard questions, we may need to look for, or build, new tools.
+
+Dissolve the question. Sometimes, the question is meaningless and asking it is just a cognitive error. If you can detect and correct the error then the question may just go away.
+
+Sleep on it. I find that I tend to have a greater than average number of insights in the period of time just after I wake up and before I get out of bed. Our brains seem to continue to work while we're asleep, and it may help to prime it by reviewing the problem before going to sleep. (I think Eliezer wrote a post or comment to this effect, but I can't find it now.)
+
+Be ready to recognize a good answer when you see it. The history of science shows that human knowledge does make progress, but sometimes only by an older generation dying off or retiring. It seems that we often can't recognize a good answer even when it's staring us in the face. I wish I knew more about what factors affect this ability, but one thing that might help is to avoid acquiring a high social status, or the mental state of having high social status. (See also, How To Actually Change Your Mind.)

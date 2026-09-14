@@ -1,0 +1,13 @@
+Why didn't Agoric Computing become popular?
+
+I remember being quite excited when I first read about Agoric Computing. From the authors' website:
+
+Until today when Robin Hanson's blog post reminded me, I had forgotten that one of the authors of Agoric Computing is Eric Drexler, who also authored Comprehensive AI Services as General Intelligence, which has stirred a lot of recent discussions in the AI safety community. (One reason for my excitement was that I was going through a market-maximalist phase, due to influences from Vernor Vinge's anarcho-captalism, Tim May's crypto-anarchy, as well as a teacher who was a libertarian and a big fan of the Austrian school of economics.)
+
+Here's a concrete way that Agoric Computing might work:
+
+When later it appeared as if Agoric Computing wasn't going to take over the world, I tried to figure out why, and eventually settled upon the answer that markets often don't align incentives correctly for maximum computing efficiency. For example, consider an object whose purpose is to hold onto some valuable data in the form of a lookup table and perform lookup services. For efficiency you might have only one copy of this object in a system, but that makes it a monopolist, so if the object is profit maximizing (e.g., running some algorithm that automatically adjusts prices so as to maximize profits) then it would end up charging an inefficiently high price. Objects that might use its services are incentivized to try to do without the data, or to maintain an internal cache of past data retrieved, even if that's bad for efficiency.
+
+Suppose this system somehow came into existence anyway. A programmer would likely notice that it would be better if the lookup table and its callers were merged into one economic agent which would eliminate the inefficiencies described above, but then that agent would itself still be a monopolist (unless you inefficiently maintained multiple copies of it) so then they'd want to merge that agent with its callers, and so on.
+
+My curiosity stopped at that point and I went on to other interests, but now I wonder if that is actually a correct understanding of why Agoric Computing didn't become popular. Does anyone have any insights to offer on this topic?

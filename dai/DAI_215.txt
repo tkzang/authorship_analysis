@@ -1,0 +1,17 @@
+Against Premature Abstraction of Political Issues
+
+A few days ago romeostevensit wrote in response to me asking about downvotes on a post:
+
+And I replied:
+
+Since writing that, I've had the thought (because of this conversation) that only talking about political issues at a meta level has another downside: premature abstraction. That is, it takes work to find the right abstraction for any issue or problem, and forcing people to move to the meta level right away means that we can't all participate in doing that work, and any errors or suboptimal choices in the abstraction can't be detected and fixed by the community, leading to avoidable frustrations and wasted efforts down the line.
+
+As an example, consider a big political debate on LW back in 2009, when "a portion of comments here were found to be offensive by some members of this community, while others denied their offensive nature or professed to be puzzled by why they are considered offensive." By the time I took my shot at finding the right abstraction for thinking about this problem, three other veteran LWers had already tried to do the same thing. Now imagine if the object level issue was hidden from everyone except a few people. How would we have been able to make the intellectual progress necessary to settle upon the right abstraction in that case?
+
+One problem that exacerbates premature abstraction is that people are often motivated to talk about a political issue because they have a strong intuitive position on it, and when they find what they think is the right abstraction for thinking about it, they'll rationalize an argument for their position within that abstraction, such that accepting the abstract argument implies accepting or moving towards their object-level position. When the object level issue is hidden, it becomes much harder for others to detect such a rationalization. If the abstraction they created is actually wrong or incomplete (i.e., doesn't capture some important element of the object-level issue), their explicit abstract argument is even more likely to have little or nothing to do with what actually drives their intuition.
+
+Making any kind of progress that would help resolve the underlying object-level issue becomes extremely difficult or impossible in those circumstances, as the meta discussion is likely to become bogged down and frustrating to everyone involved as one side tries to defend an argument that they feel strongly about (because they have a strong intuition about the object-level issue and think their abstract argument explains their intuition) but may actually be quite weak due to the abstraction itself being wrong. And this can happen even if their object-level position is actually correct!
+
+To put it more simply, common sense says hidden agendas are bad, but by having a norm for only discussing political issues at a meta level, we're directly encouraging that.
+
+(I think for this and other reasons, it may be time to relax the norm against discussing object-level political issues around here. There are definitely risks and costs involved in doing that, but I think we can come up with various safeguards to minimize the risks and costs, and if things do go badly wrong anyway, we can be prepared to reinstitute the norm. I won't fully defend that here, as I mainly want to talk about "premature abstraction" in this post, but feel free to voice your objections to the proposal in the comments if you wish to do so.)

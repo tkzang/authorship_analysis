@@ -1,0 +1,7 @@
+This question is puzzling since several general suggestions about what to do  have been posted in this discussion.
+
+This analysis is just wrong. If there is an attacker sitting between you and  the remote system, he can capture your messages after you experience a  rollback and *not* send them to the remote system. (Note that in general  these are not replayed messages, but different messages that reused old  nonces.) Instead he uses them to forge new messages that appear valid to the  remote system and send those instead.
+
+It's fair to suppose that a VM might want to remain undetectable to the  guest OS while running normally, but there's no reason not to send some kind  of signal to the guest OS after a rollback, at least by default. A  completely undetectable rollback would have to be a seperate option for  anyway, since the hardware clock also needs to be rolled back in that case.
+
+I think it's clear from the current discussion that there are good  countermeasures that are relatively cheap and apply in a wide range of  circumstances. Precise threat analysis is of course a good thing (and I  asked crypto scheme designers to help with this in the earlier "consequences  of nonce reuse" thread), but I don't see why we shouldn't be talking about  general countermeasures as well.

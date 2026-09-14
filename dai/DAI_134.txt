@@ -1,0 +1,13 @@
+Why do some kinds of work not feel like work?
+
+A topic often discussed here is how to avoid akrasia/procrastination in order to get on with work. I suggest another possible "workaround" for akrasia is to find work that doesn't feel like work. From personal experience, I know this is possible, because many of my efforts did not feel like work, in the sense that my motivation on those projects was so high that procrastination simply wasn't a factor at all. (I remember, for example, designing parts of my open-source cryptography library every day while walking to and from class, and then coding as soon as I got back to my apartment, or later, thinking about multiverses and anthropic reasoning in much of my spare time.)
+
+Why do some kinds of work feel like work, while others don't? (Is there any existing literature on this topic? I tried some searches, but don't really know what keywords to use, so I'll just generalize a bit from my own experience, and open the question for discussion.) Among the projects that I've done, the ones that didn't feel like work seem to have the following in common:
+
+It was in a field that I found interesting and exciting. (What determines this seems to be another interesting mystery.)
+There was no payment or other form of obligation to complete it.
+There were no negative consequences for failure, other than time spent.
+It fit my idealized self-image (e.g., cypherpunk or amateur philosopher).
+There was an implicit prospect of status reward if successful.
+I hadn't done it for so long that I started to get bored.
+Unfortunately I don't have enough data to conclude which of these factors were necessary or sufficient, or their relative weights in contributing to the "not work-like" feeling. Do others have similar, or perhaps different, experiences?

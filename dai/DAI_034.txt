@@ -1,0 +1,5 @@
+Are you aware that given any utility function U and probability function P, it's possible to find an infinite set of different pairs of functions U' and P', such that the preference ordering over choices determined by U' and P' is the same as the preference ordering determined by U and P? Someone with U' and P' would behave identically to someone with U and P in every possible situation.
+
+Therefore, there's no objective method to separate a person's actual preferences into a value component and a belief component, and then to compute what his preferences would be if he had "correct" beliefs.
+
+How would volitionism deal with this problem?

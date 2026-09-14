@@ -1,0 +1,14 @@
+The Popularization Bias
+
+I noticed that most recommendations in the recent recommended readings thread consist of either fiction or popularizations of specific scientific disciplines. This introduces a potential bias: aspiring rationalists may never learn about some fields or ideas that are important for the art of rationality, just because they've never been popularized.
+
+In my recent post on the fair division of black-hole negentropy, I tried to introduce two such ideas/fields (which may be one too many for a single post :). One is that black holes have entropy quadratic in mass, and therefore are ideal entropy dumps (or equivalently, negentropy mines). This is a well-known result in thermodynamics, plus an obvious application of it. Some have complained that the idea is too sci-fi, but actually the opposite is true.
+
+Unlike other perhaps equally obvious futuristic ideas such as cryonics, AI and the Singularity,
+I've never read or watched a piece of science fiction that explorered this one. (BTW, in case it's not clear why black-hole negentropy is important for rationality, it implies that value probably scales superlinearly with material and that huge gains from cooperation can be directly derived from the fundamental laws of physics.)
+
+Similarly, there are many popularizations of topics such as the Prisoner's Dilemma and the Nash Equilibrium in non-cooperative game theory (and even a blockbuster movie about John Nash!), but I'm not aware of any for cooperative game theory.
+
+Much of Less Wrong, and Overcoming Bias before it, can be seen as an attempt to correct this bias. Eliezer's posts have provided fictional treatments or popular accounts of probability theory, decision theory, MWI, algorithmic information theory, Bayesian networks, and various ethical theories, to name a few, and others have continued the tradition to some extent. But since popularization and writing fiction are hard, and not many people have both the skills and the motivation to do them, I wonder if there are still other important ideas/fields that most of us don't know about yet.
+
+So here's my request: if you know of such a field or idea, just name it in a comment and give a reference for it, and maybe say a few words about why it's important, if that's not obvious. Some of us may be motivated to learn about it for whatever reason, even from a textbook or academic article, and may eventually produce a popular account for it.

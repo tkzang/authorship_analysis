@@ -1,0 +1,1 @@
+Can you build?Try changing line 78 of init.cpp from:#ifdef __WXGTK__to:#ifndef __WXMSW__If that works, I'll change the source.  It should work.

@@ -1,0 +1,1 @@
+Once you have an update, you could download knightmb's block chain.  You'll want one that's old enough that it ends before block 74000 so the most recent security lockin will check it.  Can someone find the link for that?  

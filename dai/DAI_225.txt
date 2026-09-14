@@ -1,0 +1,11 @@
+How to bet against civilizational adequacy?
+
+Coal prices are at historical highs (2x to 4x normal prices depending on the kind of coal), but coal miner stocks are not. They're trading at historically low multiples, around 1x-2x spot FCF, meaning they can make their enterprise value in less than 2 years worth of after-tax profits, assuming coal prices stay where they are. So the market apparently "believes" that high coal prices won't last. (The low multiples are also because due to ESG concerns on the part of their investors, many funds can't invest in coal stocks without jeopardizing their AUM.)
+
+By going long coal stocks, you can implicitly bet that 1) in the short run, the war between Russia and Ukraine and the associated sanctions and trade disruptions will continue (reduced energy exports from Russia is the main cause of the current high coal prices), 2) supply of (non-Russian) energy will not respond much to higher prices, and 3) in the longer run, humanity will have a harder time transitioning away from burning coal for energy, or using coal to make steel and cement, than the market thinks.
+
+So (it occurred to me) a bet on coal is also a bet against civilizational adequacy. What are some other such bets one can make, that potentially have good risk/reward?
+
+P.S., I think coal can also double as a hedge against AI takeoff (meaning it's likely to appreciate or at least preserve its value in that scenario). (I mean a soft AI takeoff. In a hard takeoff probably all bets are off.) Consider, if GDP was doubling every few years due to AI-driven economic activity, what's likely to happen to demand for electricity and steel, and how quickly can supply respond? What are some other "unconventional" AI hedges?
+
+(If anyone wants to actually do this, please do your own research! Aside from having an informed view on points 1-3 above, you should also understand the different types of coal, grades of coal, coal blending, met/thermal substitution, coal/gas/oil substitution, trade routes, transport limitations, contract commitments and negotiations, political risks, weather risks, execution risks, etc.)

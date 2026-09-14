@@ -1,0 +1,7 @@
+I think the fix isn't so easy. Solutions 1 and 3 don't work in the scenario I described in my reply to Tim Freeman. Solution 2 doesn't work if the universe turns out not to be Everettian.
+
+There may be another alternative, which is merger into a *non-Bayesian* AI, which somehow has beliefs that causes it to try both combinations. (By "somehow" I'm trying to indicate I don't know how this would work mathematically.) Both of the original AIs would prefer this alternative, if it is feasible.
+
+In the example I gave, there is no Bayesian AI that both originals would agree to merge into. In real life, as you suggest, differences in pure priors may not be large enough so that there is no Bayesian AI that both originals can agree to merge into. But still, there may be a non-Bayesian AI that both originals would prefer over the Bayesian AIs.
+
+ I did argue that mergers may be inevitable in the original thread, and now realizing that mergers can produce "irrational" AIs, I am arguing that such "irrational" AIs may be inevitable.

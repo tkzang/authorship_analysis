@@ -1,0 +1,32 @@
+Value Uncertainty and the Singleton Scenario
+
+In January of last year, Nick Bostrom wrote a post on Overcoming Bias about his and Toby Ord's proposed method of handling moral uncertainty. To abstract away a bit from their specific proposal, the general approach was to convert a problem involving moral uncertainty into a game of negotiation, with each player's bargaining power determined by one's confidence in the moral philosophy represented by that player.
+
+Robin Hanson suggested in his comments to Nick's post that moral uncertainty should be handled the same way we're supposed to handle ordinary uncertainty, by using standard decision theory (i.e., expected utility maximization). Nick's reply was that many ethical systems don't fit into the standard decision theory framework, so it's hard to see how to combine them that way.
+
+In this post, I suggest we look into the seemingly easier problem of value uncertainty, in which we fix a consequentialist ethical system, and just try to deal with uncertainty about values (i.e., utility function). Value uncertainty can be considered a special case of moral uncertainty in which there is no apparent obstacle to applying Robin's suggestion. I'll consider a specific example of a decision problem involving value uncertainty, and work out how Nick and Toby's negotiation approach differs in its treatment of the problem from standard decision theory. Besides showing the difference in the approaches, I think the specific problem is also quite important in its own right.
+
+The problem I want to consider is, suppose we believe that a singleton scenario is very unlikely, but may have very high utility if it were realized, should we focus most of our attention and effort into trying to increase its probability and/or improve its outcome? The main issue here is (putting aside uncertainty about what will happen after a singleton scenario is realized) uncertainty about how much we value what is likely to happen.
+
+Let's say there is a 1% chance that a singleton scenario does occur, and conditional on it, you will have expected utility that is equivalent to a 1 in 5 billion chance of controlling the entire universe. If a singleton scenario does not occur, you will have a 1/5 billionth share of the resources of the solar system, and the rest of the universe will be taken over by beings like the ones described in Robin's The Rapacious Hardscrapple Frontier. There are two projects that you can work on. Project A increases the probability of a singleton scenario to 1.001%. Project B increases the wealth you will have in the non-singleton scenario by a factor of a million (so you'll have a 1/5 thousandth share of the solar system). The decision you have to make is which project to work on. (The numbers I picked are meant to be stacked in favor of project B.)
+
+Unfortunately, you're not sure how much utility to assign to these scenarios. Let's say that you think there is a 99% probability that your utility (U1) scales logarithmically with the amount of negentropy you will have control over, and 1% probability that your utility (U2) scales as the square root of negentropy. (I assume that you're an ethical egoist and do not care much about what other people do with their resources. And these numbers are again deliberately stacked in favor of project B, since the better your utility function scales, the more attractive project A is.)
+
+Let's compute the expected U1 and U2 of Project A and Project B. Let NU=10120 be the negentropy (in bits) of the universe, and NS=1077 be the negentropy of the solar system, then:
+
+EU1(status quo) = .01 * log(NU)/5e9 + .99 * log(NS/5e9)
+EU1(A) = .01001 * log(NU)/5e9 + .98999 * log(NS/5e9) ≈ 66.6
+EU1(B) = .01 * log(NU)/5e9 + .99 * log(NS/5e3) ≈ 72.6
+EU2 is computed similarly, except with log replaced by sqrt:
+
+EU2(A) =  .01001 * sqrt(NU)/5e9 + .98999 * sqrt(NS/5e9) ≈ 2.002e48
+EU2(B) =  .01 * sqrt(NU)/5e9 + .99 * sqrt(NS/5e3) ≈ 2.000e48
+Under Robin's approach to value uncertainty, we would (I presume) combine these two utility functions into one linearly, by weighing each with its probability, so we get EU(x) = 0.99 EU1(x) + 0.01 EU2(x):
+
+EU(A) ≈ 0.99 * 66.6 + 0.01 * 2.002e48 ≈ 2.002e46
+EU(B) ≈ 0.99 * 72.6 + 0.01 * 2.000e48 ≈ 2.000e46
+This suggests that we should focus our attention and efforts on the singleton scenario. In fact, even if Project A had a much, much smaller probability of success, like 10-30 instead of 0.00001, or you have a much lower confidence that your utility scales as well as the square root of negentropy, it would still be the case that EU(A)>EU(B). (This is contrary to Robin's position that we pay too much attention to the singleton scenario, and I would be interested to know in which detail his calculation differs from mine.)
+
+What about Nick and Toby's approach? In their scheme, delegate 1, representing U1, would vote for project B, while delegate 2, representing U2, would vote for project A. Since delegate 1 has 99 votes to delegate 2's one vote, the obvious outcome is that we should work on project B. The details of the negotiation process don't seem to matter much, given the large advantage in bargaining power that delegate 1 has over delegate 2.
+
+Each of these approaches to value uncertainty seems intuitively attractive on its own, but together they give conflicting advice on this important practical problem. Which is the right approach, or is there a better third choice? I think this is perhaps one of the most important open questions that an aspiring rationalist can work on.

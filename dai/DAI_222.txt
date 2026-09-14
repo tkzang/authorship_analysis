@@ -1,0 +1,7 @@
+Morality is Scary
+
+I'm worried that many AI alignment researchers and other LWers have a view of how human morality works, that really only applies to a small fraction of all humans (notably moral philosophers and themselves). In this view, people know or at least suspect that they are confused about morality, and are eager or willing to apply reason and deliberation to find out what their real values are, or to correct their moral beliefs. Here's an example of someone who fits this view:
+
+I'm currently reading The Status Game by Will Storr (highly recommended BTW), and found in it the following description of how morality works in most people, which matches my own understanding of history and my observations of humans around me:
+
+I hope this helps further explain why I think even solving (some versions of) the alignment problem probably won't be enough to ensure a future that's free from astronomical waste or astronomical suffering. A part of me is actually more scared of many futures in which "alignment is solved", than a future where biological life is simply wiped out by a paperclip maximizer.

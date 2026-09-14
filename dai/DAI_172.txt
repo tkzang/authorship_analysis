@@ -1,0 +1,15 @@
+Normativity and Meta-Philosophy
+
+I find Eliezer's explanation of what "should" means to be unsatisfactory, and here's an attempt to do better. Consider the following usages of the word:
+
+1. You should stop building piles of X pebbles because X = Y*Z.
+2. We should kill that police informer and dump his body in the river.
+3. You should one-box in Newcomb's problem.
+
+All of these seem to be sensible sentences, depending on the speaker and intended audience. #1, for example, seems a reasonable translation of what a pebblesorter would say after discovering that X = Y*Z. Some might argue for "pebblesorter::should" instead of plain "should", but it's hard to deny that we need "should" in some form to fill the blank there for a translation, and I think few people besides Eliezer would object to plain "should".
+
+Normativity, or the idea that there's something in common about how "should" and similar words are used in different contexts, is an active area in academic philosophy. I won't try to survey the current theories, but my current thinking is that "should" usually means "better according to some shared, motivating standard or procedure of evaluation", but occasionally it can also be used to instill such a standard or procedure of evaluation in someone (such as a child) who is open to being instilled by the speaker/writer.
+
+It seems to me that different people (including different humans) can have different motivating standards and procedures of evaluation, and apparent disagreements about "should' sentences can arise from having different standards/procedures or from disagreement about whether something is better according to a shared standard/procedure. In most areas my personal procedure of evaluation is something that might be called "doing philosophy" but many people apparently do not share this. For example a religious extremist may have been taught by their parents, teachers, or peers to follow some rigid moral code given in their holy books, and not be open to any philosophical arguments that I can offer.
+
+Of course this isn't a fully satisfactory theory of normativity since I don't know what "philosophy" really is (and I'm not even sure it really is a thing). But it does help explain how "should" in morality might relate to "should" in other areas such as decision theory, does not require assuming that all humans ultimately share the same morality, and avoids the need for linguistic contortions such as "pebblesorter::should".

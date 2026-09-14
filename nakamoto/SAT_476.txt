@@ -1,0 +1,1 @@
+rpc backupwallet <destination> is in SVN rev 147.

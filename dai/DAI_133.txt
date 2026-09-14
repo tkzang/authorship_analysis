@@ -1,0 +1,28 @@
+Metaphilosophical Mysteries
+
+Creating Friendly AI seems to require us humans to either solve most of the outstanding problems in philosophy, or to solve meta-philosophy (i.e., what is the nature of philosophy, how do we practice it, and how should we program an AI to do it?), and to do that in an amount of time measured in decades. I'm not optimistic about our chances of success, but out of these two approaches, the latter seems slightly easier, or at least less effort has already been spent on it. This post tries to take a small step in that direction, by asking a few questions that I think are worth investigating or keeping in the back of our minds, and generally raising awareness and interest in the topic.
+
+The Unreasonable Effectiveness of Philosophy
+
+It seems like human philosophy is more effective than it has any right to be. Why?
+
+First I'll try to establish that there is a mystery to be solved. It might be surprising so see the words "effective" and "philosophy" together in the same sentence, but I claim that human beings have indeed made a non-negligible amount of philosophical progress. To cite one field that I'm especially familiar with, consider probability and decision theory, where we went from having no concept of probability, to studies involving gambles and expected value, to subjective probability, Bayesian updating, expected utility maximization, and the Turing-machine-based universal prior, to the recent realizations that EU maximization with Bayesian updating and the universal prior are both likely to be wrong or incomplete.
+
+We might have expected that given we are products of evolution, the amount of our philosophical progress would be closer to zero. The reason for low expectations is that evolution is lazy and shortsighted. It couldn't possibly have "known" that we'd eventually need philosophical abilities to solve FAI. What kind of survival or reproductive advantage could these abilities have offered our foraging or farming ancestors?
+
+From the example of utility maximizers, we also know that there are minds in the design space of minds that could be considered highly intelligent, but are incapable of doing philosophy. For example, a Bayesian expected utility maximizer programmed with a TM-based universal prior would not be able to realize that the prior is wrong. Nor would it be able to see that Bayesian updating is the wrong thing to do in some situations.
+
+Why aren't we more like utility maximizers in our ability to do philosophy? I have some ideas for possible answers, but I'm not sure how to tell which is the right one:
+
+Philosophical ability is "almost" universal in mind space. Utility maximizers are a pathological example of an atypical mind.
+Evolution created philosophical ability as a side effect while selecting for something else.
+Philosophical ability is rare and not likely to be produced by evolution. There's no explanation for why we have it, other than dumb luck.
+As you can see, progress is pretty limited so far, but I think this is at least a useful line of inquiry, a small crack in the problem that's worth trying to exploit. People used to wonder at the unreasonable effectiveness of mathematics in the natural sciences, especially in physics, and I think such wondering eventually contributed to the idea of the mathematical universe: if the world is made of mathematics, then it wouldn't be surprising that mathematics is, to quote Einstein, "appropriate to the objects of reality". I'm hoping that my question might eventually lead to a similar insight.
+
+Objective Philosophical Truths?
+
+Consider again the example of the wrongness of the universal prior and Bayesian updating. Assuming that they are indeed wrong, it seems that the wrongness must be objective truths, or in other words, it's not relative to how the human mind works, or has anything to do with any peculiarities of the human mind. Intuitively it seems obvious that if any other mind, such as a Bayesian expected utility maximizer, is incapable of perceiving the wrongness, that is not evidence of the subjectivity of these philosophical truths, but just evidence of the other mind being defective. But is this intuition correct? How do we tell?
+
+In certain other areas of philosophy, for example ethics, objective truth either does not exist or is much harder to find. To state this in Eliezer's terms, in ethics we find it hard to do better than to identify "morality" with a huge blob of computation which is particular to human minds, but it appears that in decision theory "rationality" isn't similarly dependent on complex details unique to humanity. How to explain this? (Notice that "rationality" and "morality" otherwise share certain commonalities. They are both "ought" questions, and a utility maximizer wouldn't try to answer either of them or be persuaded by any answers we might come up with.)
+
+These questions perhaps offer further entry points to try to attack the larger problem of understanding and mechanizing the process of philosophy. And finally, it seems worth noting that the number of people who have thought seriously about meta-philosophy is probably tiny, so it may be that there is a bunch of low-hanging fruit hiding just around the corner.

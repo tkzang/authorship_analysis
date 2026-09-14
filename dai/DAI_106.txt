@@ -1,0 +1,18 @@
+Torture vs. Dust vs. the Presumptuous Philosopher: Anthropic Reasoning in UDT
+
+In this post, I'd like to examine whether Updateless Decision Theory can provide any insights into anthropic reasoning. Puzzles/paradoxes in anthropic reasoning is what prompted me to consider UDT originally and this post may be of interest to those who do not consider Counterfactual Mugging to provide sufficient motivation for UDT.
+
+The Presumptuous Philosopher is a thought experiment that Nick Bostrom used to argue against the Self-Indication Assumption. (SIA: Given the fact that you exist, you should (other things equal) favor hypotheses according to which many observers exist over hypotheses on which few observers exist.)
+
+To make this example clearer as a decision problem, let's say that the consequences of carrying out the "simple experiment" is a very small cost (one dollar). And the consequences of just assuming T2 is a disaster down the line if T1 turns out to be true (we create a power plant based on T2, and it blows up and kills someone).
+
+In UDT, no Bayesian updating occurs, and in particular, you don't update on the fact that you exist. Suppose in CDT you have a prior P(T1) = P(T2) = .5 before taking into account that you exist, then translated into UDT you have Σ P(Vi) = Σ P(Wi) = .5, where Vi and Wi are world programs where T1 and T2 respectively hold. Anthropic reasoning occurs as a result of considering the consequences of your decisions, which are a trillion times greater in T2 worlds than in T1 worlds, since your decision algorithm S is called about a trillion times more often in Wi programs than in Vi programs.
+
+Perhaps by now you've notice the parallel between this decision problem and Eliezer's Torture vs. Dust Specks. The very small cost of the simple physics experiment is akin to getting a dust speck in the eye, and the disaster of wrongly assuming T2 is akin to being tortured. By not doing the experiment, we can save one dollar for a trillion individuals in exchange for every individual we kill.
+
+In general, Updateless Decision Theory converts anthropic reasoning problems into ethical problems. I can see three approaches to taking advantage of this:
+
+If you have strong epistemic intuitions but weak moral intuitions, then you can adjust your morality to fit your epistemology.
+If you have strong moral intuitions but weak epistemic intuitions, then you can adjust your epistemology to fit your morality.
+You might argue that epistemology shouldn't be linked so intimately with morality, and therefore this whole approach is on the wrong track.
+Personally, I have vacillated between 1 and 2. I've argued, based on 1, that we should discount the values of individuals by using a complexity-based measure. And I've also argued, based on 2, that perhaps the choice of an epistemic prior is more or less arbitrary (since objective morality seems unlikely to me). So I'm not sure what the right answer is, but this seems to be the right track to me.

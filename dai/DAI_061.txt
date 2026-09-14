@@ -1,0 +1,8 @@
+Why the off-list reply?
+
+Let me try this approach to the issue, and see if it's helpful. Consider the following thought experiment. You're a disembodied brain living in a jar, with remote control of a telepresence robot. You just heard that the storage warehouse housing your jar is on fire, and rush the robot back to save yourself. The bad news is there are thousands of brains in the warehouse, and you don't know which one is yours. The good news is there's a brain scanning machine with resolution down to individual neurons, and you can try to use it to find out which brain is you. Question is, how to do it?
+
+How do you take a bunch of neurons and figure out what it's experiencing? Would the answer to this question also answer Mitchell's question, or is he asking something else?
+
+Is this question worth trying to answer? A mind with full access to its self-state presumably wouldn't have this problem with determining which brain is itself. It would just directly compare the scanner output with its own self-inspection. Assuming that we'll get this feature soon, is there some other scenario where the answer would be useful?
+

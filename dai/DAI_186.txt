@@ -1,0 +1,19 @@
+Counterintuitive Comparative Advantage
+
+This has been sitting in my drafts folder since 2011. Decided to post it today given the recent post about Dunning—Kruger and related discussions.
+
+The standard rationalist answer when someone asks for career advice is "find your comparative advantage." I don't have any really good suggestions about how to make this easier, but it seems like a good topic to bring up for discussion.
+
+If 15 years ago (when I was still in college and my initial career choice hadn't been finalized yet), someone told me that perhaps I ought to consider a career in philosophy, I would have laughed. "You must be joking. Obviously, I'll be really bad at doing philosophy," I would have answered. I thought of myself as a natural born programmer, and that's the career direction I ended up choosing.
+
+As it turns out, I am a pretty good programmer, and a terrible philosopher, but it also happens to be the case that just about everyone else is even worse at doing philosophy, and getting some philosophical questions right might be really important.
+
+The usual (instinctive) way for someone to choose a career is probably to pick a field that they think they will be particularly good at, using a single standard of goodness across all of the candidate fields. For example, the implicit reasoning behind my own career choice could be something like "Given a typical programming problem, I can solve it in a few hours with high probability. Whereas, given a typical philosophical problem, I can at best solve it after many years with low probability."
+
+On the other hand, comparative advantage says that in addition to your own abilities, you should also consider how good other people are (or will be) at various fields, and how valuable the outputs of those fields are (will be). Unless you're only interested in maximizing income, and the fields you're considering are likely to remain stable over your lifetime (in which case you can just compare current salaries, although apparently many people don't even do that), this can be pretty tricky.
+
+(There doesn't appear to be any previous OB/LW posts on comparative advantage. The closest I could find is Eliezer's Money: The Unit of Caring. Most discussions elsewhere seem to focus on simple static examples where finding comparative advantage is relatively trivial.)
+
+Today (in 2018) there's an 80,000 Hour article about comparative advantage but that is more about how to find one's comparative advantage in a community of people who share a cause, like in EA, rather in the wider economy.
+
+I would also add (in 2018) that besides everyone else lacking skill or talent at something, an even bigger source of comparative advantage is being one of the first people to realize that a problem is a problem, or to realize an important new variant or subproblem of an existing problem. In that case, everyone else is really bad at solving that problem just because they have no idea the problem even exists.

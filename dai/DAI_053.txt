@@ -1,0 +1,3 @@
+Yes, of course. But what point are you making by highlighting this fact? That the generalization is undesirable, or that it doesn't go far enough?
+
+Does that mean that Novamente will be using a prior based on CL? If so will it always assume that only computable universes are possible, or do you expect that it will adopt a generalization of algorithmic complexity on its own? Do you agree that the former would be a bad thing? And if the latter how will the change be triggered?

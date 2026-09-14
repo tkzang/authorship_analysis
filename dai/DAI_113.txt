@@ -1,0 +1,26 @@
+Re-understanding Robin Hanson's "Pre-Rationality"
+
+I've read Robin's paper "Uncommon Priors Require Origin Disputes" several times over the years, and I've always struggled to understand it. Each time I would think that I did, but then I would forget my understanding, and some months or years later, find myself being puzzled by it all over again. So this time I'm going to write down my newly re-acquired understanding, which will let others check that it is correct, and maybe help people (including my future selves) who are interested in Robin's idea but find the paper hard to understand.
+
+Here's the paper's abstract, in case you aren't already familiar with it.
+
+I think my main difficulty with understanding the paper is the lack of a worked out example. So I'll take a simplified version of an example given in the paper and try to work out how it should be treated under the proposed formalism. Quoting the paper:
+
+Instead of talking about optimism vs pessimism in general, I'll use the example of an AI which has a prior on just the outcome of one coin toss (A) which will occur after it is created. The AI programmer will program it with one of two priors. The "optimistic" prior O says that the coin will land heads with probability .6, and the "pessimistic" prior P says that the coin will land heads with probability .4. For some reason, the programmer has decided to choose the prior based on an independent coin toss (B), which corresponds to the random Mendelian inheritance in the original example.
+
+Suppose an "optimistic" AI wakes up and then reads Robin's paper. How would it reason? First, it needs a pre-prior (denoted p~ [EDIT: actually denoted q, as Hal pointed out in a comment] in the paper, but I'll use r here) that explains how it got its prior. So it asks the programmer how it got its prior, and the programmer tells it about coin toss B. (I'm using the AI as an explanatory prop here, not saying that an actual AI would reason this way.) One plausible pre-prior at this point might be:
+
+r(p=O) = r(B=heads) = 0.5
+r(A=heads) = 0.6
+r(p=O AND A=heads) = 0.3
+But unfortunately, this pre-prior doesn't satisfy Robin's pre-rationality condition (equation 2 on page 4), which when applied to this example says that
+
+O(A=heads) = r(A=heads | p=O) and
+P(A=heads) = r(A=heads | p=P)
+The first equality holds, but the second one doesn't, because P(A=heads) = 0.4, and r(A=heads | p=P) = 0.6.
+
+And actually there seems no way to construct any pre-prior that satisfies pre-rationality, unless the coin tosses A and B are correlated in the pre-prior (I think this is what Robin meant in the paper by "track truth"). But the programmer insists that the two coin tosses are not correlated, so that's that. What should the AI do at this point? Robin's paper doesn't say. It assumes pre-rationality and derives consequences from it, but doesn't talk about what we should do if we find ourselves lacking in pre-rationality, except that we might want to do something to correct this defect.
+
+One obvious solution here is for the AI programmer to not have picked different priors for the AI based on an independent coin toss in the first place, and perhaps it could be argued that it was irrational, according to ordinary rationality, for the programmer to have done that. If it had been the case that O=P, then the AI can easily construct a pre-rational pre-prior. But our own priors depend partly on our genes, which were picked by evolution, so this solution doesn't seem to apply to us. And if we create any Bayesian AIs, the priors of those AIs will also be inevitably influenced (indirectly via us) by the randomness inherent in evolution.
+
+So what should we (or our AIs) do? I think I have some ideas about that, but first, is my understanding of pre-rationality correct?

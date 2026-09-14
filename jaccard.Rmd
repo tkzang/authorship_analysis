@@ -1,0 +1,223 @@
+---
+title: "Bitcoin Authorship Analysis"
+date: "2025-03-19"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly  
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Bitcoin Analysis
+
+```{r libraries}
+library(tm)           # text processing
+library(tokenizers)   # tokenisation
+library(tidyverse)    # visualisation
+library(ggplot2)      # visualisation
+library(ggdendro)     # dendrograms
+library(stringr)      # For string manipulation
+library(dplyr)        # For data manipulation
+library(umap)         # visualisation / projection
+
+nakamoto <- "C:/Users/17390/Desktop/Bitcoin/nakamoto"
+dai <- "C:/Users/17390/Desktop/Bitcoin/dai"
+```
+
+Jaccard Distance
+
+```{r jaccard}
+# Function to preprocess text
+preprocess <- function(text) {
+  text <- iconv(text, 
+                from = "UTF-8", 
+                to = "ASCII//TRANSLIT", 
+                sub = "")  # Convert encoding
+  text <- tolower(text)                     # Convert to lowercase
+  text <- removePunctuation(text)           # Remove punctuation
+  tokens <- unlist(tokenize_words(text))    # Tokenize into words
+  return(unique(tokens))                     # Return unique words
+}
+
+# Function to compute Jaccard Distance between two texts
+jaccard_distance <- function(set1, set2) {
+  intersection <- length(intersect(set1, 
+                                   set2))
+  union <- length(union(set1, 
+                        set2))
+  return(1 - (intersection / union))  # Jaccard Distance formula
+}
+
+# Function to compute Jaccard Distance matrix for a single folder
+compute_jaccard_matrix <- function(folder_path) {
+  files <- list.files(folder_path, pattern = "\\.txt$", full.names = TRUE)
+  
+  text_sets <- lapply(files, function(file) {
+    text <- readLines(file, warn = FALSE)
+    return(preprocess(paste(text, collapse = " "))) # Preprocess and tokenize
+  })
+  
+  num_files <- length(files)
+  distance_matrix <- matrix(0, nrow = num_files, ncol = num_files,
+                            dimnames = list(basename(files), basename(files)))
+  
+  for (i in 1:num_files) {
+    for (j in i:num_files) { 
+      dist <- jaccard_distance(text_sets[[i]], text_sets[[j]])
+      distance_matrix[i, j] <- dist
+      distance_matrix[j, i] <- dist 
+    }
+  }
+  
+  return(distance_matrix)
+}
+
+# Function to compute Jaccard Distance matrix between two folders
+compute_cross_jaccard_matrix <- function(folder1_path, folder2_path) {
+  files1 <- list.files(folder1_path, pattern = "\\.txt$", full.names = TRUE)
+  files2 <- list.files(folder2_path, pattern = "\\.txt$", full.names = TRUE)
+  
+  text_sets1 <- lapply(files1, function(file) {
+    text <- readLines(file, warn = FALSE)
+    return(preprocess(paste(text, collapse = " "))) 
+  })
+  
+  text_sets2 <- lapply(files2, function(file) {
+    text <- readLines(file, warn = FALSE)
+    return(preprocess(paste(text, collapse = " "))) 
+  })
+  
+  num_files1 <- length(files1)
+  num_files2 <- length(files2)
+  
+  distance_matrix <- matrix(0, nrow = num_files1, ncol = num_files2,
+                            dimnames = list(basename(files1), basename(files2)))
+  
+  for (i in 1:num_files1) {
+    for (j in 1:num_files2) { 
+      distance_matrix[i, j] <- jaccard_distance(text_sets1[[i]], text_sets2[[j]])
+    }
+  }
+  
+  return(distance_matrix)
+}
+
+# Wrapper function to compute all three matrices
+compute_jaccard_matrices <- function(folder1_path, folder2_path) {
+  cat("Computing Jaccard distances for Folder 1...\n")
+  matrix1 <- compute_jaccard_matrix(folder1_path)
+  
+  cat("Computing Jaccard distances for Folder 2...\n")
+  matrix2 <- compute_jaccard_matrix(folder2_path)
+  
+  cat("Computing cross-folder Jaccard distances...\n")
+  cross_matrix <- compute_cross_jaccard_matrix(folder1_path, folder2_path)
+  
+  return(list(folder1_matrix = matrix1, folder2_matrix = matrix2, cross_matrix = cross_matrix))
+}
+
+# Example usage:
+results <- compute_jaccard_matrices(nakamoto, dai)
+cross_matrix <- results$cross_matrix
+nakamoto_matrix <- results$folder1_matrix
+dai_matrix <- results$folder2_matrix
+```
+
+
+```{r vis_2, fig.width = 10, fig.height = 15}
+# Convert cross_matrix to long format
+cross_matrix_df <- as.data.frame(cross_matrix) %>%
+  rownames_to_column(var = "File1") %>%
+  pivot_longer(cols = -File1, names_to = "File2", values_to = "Jaccard_Distance")
+
+# Ensure the distance is numeric
+cross_matrix_df$Jaccard_Distance <- as.numeric(cross_matrix_df$Jaccard_Distance)
+
+# Filter the top 50 most dissimilar pairs based on Jaccard Distance
+top_dissimilar <- cross_matrix_df %>%
+  arrange(desc(Jaccard_Distance)) %>%
+  slice_head(n = 50)  # Show the top 50 most dissimilar pairs
+
+# Create the heatmap for top 50 pairs
+ggplot(top_dissimilar, aes(x = File1, y = File2, fill = Jaccard_Distance)) +
+  geom_tile() +
+  scale_fill_viridis_c() +  # Using viridis color palette for high contrast
+  theme_minimal() +
+  labs(title = "Top 50 Most Dissimilar File Pairs (Jaccard Distance)",
+       x = "Folder 1 Files", y = "Folder 2 Files", fill = "Jaccard Distance") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        axis.text.y = element_text(size = 6))  # Resize labels for readability
+```
+
+Or are the more similar files more interesting? 
+
+```{r vis_3, fig.width = 10, fig.height = 15}
+top_similar <- cross_matrix_df %>%
+  arrange(Jaccard_Distance) %>%
+  slice_head(n = 50) 
+
+# Create the heatmap for top 50 pairs
+ggplot(top_similar, aes(x = File1, y = File2, fill = Jaccard_Distance)) +
+  geom_tile() +
+  scale_fill_viridis_c() +  # Using viridis color palette for high contrast
+  theme_minimal() +
+  labs(title = "Top 50 Most Similar File Pairs (Jaccard Distance)",
+       x = "Folder 1 Files", y = "Folder 2 Files", fill = "Jaccard Distance") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        axis.text.y = element_text(size = 6))  # Resize labels for readability
+```
+
+
+```{r vis_4, fig.width = 10, fig.height = 15}
+# Create a full distance matrix (773 x 773)
+full_matrix <- matrix(NA, nrow = 543 + 230, ncol = 543 + 230)
+
+# Fill in the internal distances for Folder 1 (top-left block)
+full_matrix[1:543, 1:543] <- nakamoto_matrix
+
+# Fill in the internal distances for Folder 2 (bottom-right block)
+full_matrix[544:773, 544:773] <- dai_matrix
+
+# Fill in the cross-folder distances (top-right block)
+full_matrix[1:543, 544:773] <- cross_matrix
+
+# Fill in the symmetric cross-folder distances (bottom-left block)
+full_matrix[544:773, 1:543] <- t(cross_matrix)
+
+# Now you have a combined distance matrix
+
+# Apply UMAP to the full distance matrix
+umap_result <- umap(full_matrix)
+
+# Create a data frame with UMAP results for visualization
+# Get file names for both folders
+file_names <- c(basename(list.files(nakamoto, pattern = "\\.txt$", full.names = TRUE)),
+                basename(list.files(dai, pattern = "\\.txt$", full.names = TRUE)))
+
+# Folder labels (nakamoto for the first 543, dai for the last 230)
+folder_labels <- c(rep("nakamoto", 543), rep("dai", 230))
+
+# Create a data frame to hold the UMAP results
+umap_df <- data.frame(UMAP1 = umap_result$layout[, 1],
+                      UMAP2 = umap_result$layout[, 2],
+                      file = file_names,
+                      folder = folder_labels)
+
+# Plot the UMAP results
+ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = folder)) +
+  geom_point() +
+  labs(title = "UMAP Projection of All File Distances",
+       x = "UMAP 1", y = "UMAP 2") +
+  theme_minimal() +
+  scale_color_manual(values = c("nakamoto" = "deeppink1", "dai" = "turquoise1"))
+```
+
+
+
+
+
+

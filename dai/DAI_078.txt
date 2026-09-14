@@ -1,0 +1,3 @@
+Yes, I think it would be better to instead call it an intelligence that makes use of an optimization subroutine, because much of its dynamics is now outside the optimization process and in how it revises its objective function.
+
+But to sidestep this semantic issue, let me restate my thesis this way: an important part of intelligence, namely the ability to contemplate and make progress on these types of questions, can not be modeled or implemented as an optimization process with a fixed objective function.

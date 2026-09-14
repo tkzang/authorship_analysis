@@ -1,0 +1,15 @@
+Government funding of information goods based on measured value
+
+I think we should consider funding information goods (software, movies,  music, etc.) through tax revenue rather than copyrights. (Those rights are  increasingly difficult to enforce and produce much waste by causing  information goods to be priced far above marginal costs.) One way to do it  would be to let people spend their own money to produce the information,  and then reimburse them based on some function of the expended cost and  the social benefit. That brings up the question of how to evaulate the  social benefit of an information good. To quote a paper by Carl Shapiro  and Hal R. Varian:
+
+If the government could raise tax revenues without distorting economic  activity (e.g., by discouraging work and employment through payroll and  income taxes), it might make some sense to increase taxes to finance the  creation of information, which could then be distributed freely. However,  as noted above, government taxes inevitably cause their own  inefficiencies. Also, with free dissemination of information, there is no  independent test of the value of that information, making it more  difficult to determine which types of information are worthy of government  funding.  (end quote)
+
+Are there any existing proposals for measuring the value of information,  which is being freely disseminated? If not, I'd like to proposed the  following scheme:
+
+Whenever someone first accesses a piece of information, he may be chosen  by the access mechanism randomly, with probability p1, to answer whether  he values that information more than some random amount of money $x. Then  with probability p2, if he answers yes, he is charged $x, otherwise he is  denied access to this piece of information forever. p1 and p2 are both  supposed to be small. In the usual case, he would just be allowed to  access the information for free.
+
+Users in this system would be able to access almost all information for  free, and when they are asked to state their preferences they have  incentives to answer truthfully. By measuring how many people use each  piece of information, and combining that with the answers users provide, a  statistical estimate of its aggregate value can be easily computed.
+
+Some copy protection would still be needed, so that if someone is denied  access, he is not able to obtain the information from another channel.  However, the idea is that unlike today, the market for such "piracy" would  be so small that no one would have an incentive to supply pirated  information or the tools needed to break copy protection.
+
+Is this a viable and/or preferable alternative to our copyright based  information economy?

@@ -1,0 +1,1 @@
+Does anyone know what happened to the UMAC Internet Draft? Did the authors lose interest in turning it into an RFC, or is there a better alternative now?

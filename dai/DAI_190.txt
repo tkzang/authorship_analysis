@@ -1,0 +1,15 @@
+Why is so much discussion happening in private Google Docs?
+
+I've noticed that when I've been invited to view and comment on AI-safety related draft articles (in Google Docs), they tend to quickly attract a lot of extensive discussion, including from people who almost never participate on public forums like LessWrong or AI Alignment Forum. The number of comments is often an order of magnitude higher than a typical post on the Alignment Forum. (Some of these are just pointing out typos and the like, but there's still a lot of substantial discussions.) This seems kind of wasteful because many of the comments do not end up being reflected in the final document so the ideas and arguments in them never end up being seen by the public (e.g., because the author disagrees with them, or doesn't want to include them due to length). So I guess I have a number of related questions:
+
+1. What is it about these Google Docs that makes people so willing to participate in discussing them?
+
+2. Would the same level of discussion happen if the same draft authors were to present their drafts for discussion in public?
+
+3. Is there a way to attract this kind of discussion/participants to public posts in general (i.e., not necessarily drafts)?
+
+4. Is there some other way to prevent those ideas/arguments from "going to waste"?
+
+5. I just remembered that LessWrong has a sharable drafts feature. (Where I think the initially private comments can be later made public?) Is anyone using this? If not, why?
+
+Personally I much prefer to comment in public places, due to not wanting my comments to be "wasted", so I'm having trouble understanding the psychology of people who seem to prefer the opposite.

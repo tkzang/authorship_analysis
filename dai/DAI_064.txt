@@ -1,0 +1,5 @@
+I think you're right that there are big unsolved problems lurking in the choice of axioms. I don't know if Schmidhuber has responded to this thread yet, but I bet he wouldn't deny that. Maybe choosing the right axioms is no easier than programming a self-improving AI using a procedure approach.
+
+It's a slightly more general problem. How does the AI programmer make sure the AI will do what he wants it to do, which may not necessarily be "friendliness"? I think we need some other term for this more general problem, as solving this problem will automatically solve Friendly AI, but not vice versa. Perhaps "safe AI"?
+
+I don't see why its unfair to zap him, as long as we zap everybody else for it. The safety issue needs to be part of every paper on AI, even if it only says "no safety considerations were included in this work" or "safety is still an unsolved problem", just to remind potential implementors that it's not safe to actually build the AI as described.

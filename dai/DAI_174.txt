@@ -1,0 +1,13 @@
+Outside View(s) and MIRI's FAI Endgame
+
+On the subject of how an FAI team can avoid accidentally creating a UFAI, Carl Shulman wrote:
+
+In the history of philosophy, there have been many steps in the right direction, but virtually no significant problems have been fully solved, such that philosophers can agree that some proposed idea can be the last words on a given subject. An FAI design involves making many explicit or implicit philosophical assumptions, many of which may then become fixed forever as governing principles for a new reality. They'll end up being last words on their subjects, whether we like it or not. Given the history of philosophy and applying the outside view, how can an FAI team possibly reach "very high standards of proof" regarding the safety of a design? But if we can foresee that they can't, then what is the point of aiming for that predictable outcome now?
+
+Until recently I haven't paid a lot of attention to the discussions here about inside view vs outside view, because the discussions have tended to focus on the applicability of these views to the problem of predicting intelligence explosion. It seemed obvious to me that outside views can't possibly rule out intelligence explosion scenarios, and even a small probability of a future intelligence explosion would justify a much higher than current level of investment in preparing for that possibility. But given that the inside vs outside view debate may also be relevant to the "FAI Endgame", I read up on Eliezer and Luke's most recent writings on the subject... and found them to be unobjectionable. Here's Eliezer:
+
+Does anyone want to argue that Eliezer's criteria for using the outside view are wrong, or don't apply here?
+
+And Luke:
+
+These ideas seem harder to apply, so I'll ask for readers' help. What reference classes should we use here, in addition to past attempts to solve philosophical problems? What inside view adjustments could a future FAI team make, such that they might justifiably overcome (the most obvious-to-me) outside view's conclusion that they're very unlikely to be in the possession of complete and fully correct solutions to a diverse range of philosophical problems?

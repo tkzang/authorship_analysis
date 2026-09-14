@@ -1,0 +1,49 @@
+Forum participation as a research strategy
+
+Recently I've noticed a cognitive dissonance in myself, where I can see that my best ideas have come from participating on various mailing lists and forums (such as cypherpunks, extropians, SL4, everything-list, LessWrong and AI Alignment Forum), and I've received a certain amount of recognition as a result, but when someone asks me what I actually do as an "independent researcher", I'm embarrassed to say that I mostly comment on other people's posts, participate in online discussions, and occasionally a new idea pops into my head and I write it down as a blog/forum post of my own. I guess that's because I imagine it doesn't fit most people's image of what a researcher's work consists of.
+
+Once I noticed this, the tension is easy to resolve - in this post I'm going to proclaim/endorse forum participation (aka commenting) as a productive research strategy that I've managed to stumble upon, and recommend it to others (at least to try). Note that this is different from saying that forum/blog posts are a good way for a research community to communicate. It's about individually doing better as researchers.
+
+Benefits of Forum Participation (FP)
+
+FP takes little effort / will power
+
+In other words it feels more like play than work, which means I rarely have issues with not wanting to do something that I think is important to do (i.e., akrasia), the only exception being that writing posts seems to take more effort so occasionally I spend my time writing comments when I perhaps should write posts instead. (This is the part of this post that I think may be least likely to generalize to other people. It could be that I'm an extreme outlier in finding FP so low-effort. However it might also be the case that it becomes low effort for most people to write comments once they've had enough practice in it.)
+
+FP is a good way to notice missing background knowledge and provides incentives to learn missing knowledge
+
+If you read a post with an intention to question or comment on it, it's pretty easy to notice that it assumes some background knowledge that you lack. The desire to not ask a "stupid" question or make a "stupid" comment provides powerful incentive to learn the miss knowledge.
+
+FP is a good way to stay up to date on everyone else's latest research
+
+It's often a good idea to stay up to date on other people's research, but sometimes one isn't highly motivated to do so. FP seems to make that easier. For example, I wasn't following Stuart's research on counterfactual oracles, until the recent contest drew my attention and desire to participate, and I ended up reading the latest posts on CO in order to understand the current state of the art on that topic, which turned out to be pretty interesting.
+
+Arguments that are generated in reaction to some specific post or discussion can be of general value
+
+It's not infrequent that I come up with an argument in response to some post or discussion thread, and later expand or follow up that argument into a post because it seems to apply more generally than to just that post/discussion. Here is one such example.
+
+FP generates new ideas via cross-fertilization
+
+FP incentivizes one to think deeply about many threads of research, and often (at least for me) an idea pops into my head that seems to combine various partial ideas floating in the ether into a coherent or semi-coherent whole (e.g., UDT), or is the result of applying or analogizing someone else's latest idea to a different topic (e.g., "human safety problem", "philosophy as high complexity class").
+
+FP helps prepare for efficiently communicating new ideas
+
+FP is a good way to build models of other people's epistemic states, and also a good way to practice communicating with fellow researchers, both of which are good preparation for efficiently communicating one's own new ideas.
+
+My Recommendations
+
+Comment more
+
+To obtain the above benefits, one just has to write more comments. It may be necessary to first overcome disincentives to participate. If you can't, please speak up and maybe the forum admins will do something to help address whatever obstacle you're having trouble with.
+
+Practice makes better
+
+If it seems hard to write good comments, practice might make it easier eventually.
+
+Think of FP as something to do for yourself
+
+Some people might think of commenting as primarily providing a service to other researchers or to the research community. I suggest also thinking of it as providing a benefit to yourself (for the above reasons).
+
+Encourage and support researchers who adopt FP as their primary research strategy
+
+I'm not aware of any organizations that explicitly encourage and support researchers to spend most or much of their time commenting on forum posts. But perhaps they should, if it actually is (or has the potential to be) a productive research strategy? For example this could be done by providing financial support and/or status rewards for effective forum participation.

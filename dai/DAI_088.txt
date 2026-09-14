@@ -1,0 +1,5 @@
+Actually, the difficulty I had in mind was the seeming impossibility of *proving* one's source code to another. Sure, one SI can just send her source code to another, but how does the other SI know that it's not just some source code that she wants him to think she's running?
+
+It seems that if it *were* possible to prove one's source code to another, interesting things besides superrationality, like for example self-enforcing contracts, would be possible. (One simply modifies one's source code to guarantee attempts to fulfill the contract terms and then prove the new source code to the counterparties.)
+
+But the two SIs don't have to emulate each other perfectly. Assuming the above problem is solved, they just have to prove to each other that the source code they are running implements superrationality (or whatever). It is a difficult problem to prove anything about an arbitrary program, but it should be possible to construct a program in a way that makes the proof easy. This is a known technique that goes under the name of "proof-carrying code".

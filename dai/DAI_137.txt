@@ -1,0 +1,17 @@
+Why Do We Engage in Moral Simplification?
+
+It appears to me that much of human moral philosophical reasoning consists of trying to find a small set of principles that fit one's strongest moral intuitions, and then explaining away or ignoring the intuitions that do not fit those principles. For those who find such moral systems attractive, they seem to have the power of actually reducing the strength of, or totally eliminating those conflicting intuitions.
+
+In Fake Utility Functions, Eliezer described an extreme version of this, the One Great Moral Principle, or Amazingly Simple Utility Function, and suggested that he was partly responsible for this phenomenon by using the word "supergoal" while describing Friendly AI. But it seems to me this kind of simplification-as-moral-philosophy has a history much older than FAI.
+
+For example, hedonism holds that morality consists of maximizing pleasure and minimizing pain, utilitarianism holds that everyone should have equal weight in one's morality, and egoism holds that moralist consists of satisfying one's self-interest. None of these fits all of my moral intuitions, but each does explain many of them. The puzzle this post presents is: why do we have a tendency to accept moral philosophies that do not fit all of our existing values? Why do we find it natural or attractive to simplify our moral intuitions?
+
+Here's my idea: we have a heuristic that in effect says, if many related beliefs or intuitions all fit a certain pattern or logical structure, but a few don't, the ones that don't fit are probably caused by cognitive errors and should be dropped and regenerated from the underlying pattern or structure.
+
+As an example where this heuristic is working as intended, consider that your intuitive estimates of the relative sizes of various geometric figures probably roughly fit the mathematical concept of "area", in the sense that if one figure has a greater area than another, you're likely to intuitively judge that it's bigger than the other. If someone points out this structure in your intuitions, and then you notice that in a few cases your intuitions differ from the math, you're likely to find that a good reason to change those intuitions.
+
+I think this idea can explain why different people end up believing in different moral philosophies. For example, many members of this community are divided along utilitarian/egoist lines. Why should that be the case? The theory I proposed suggests two possible answers:
+
+They started off with somewhat different intuitions (or the same intuitions with different relative strengths), so a moral system that fits one person's intuitions relatively well might fit anther's relatively badly.
+They had the same intuitions to start with, but encountered the moral philosophies in different orders. If each person accepts the first moral system that fits their intuitions "well enough", and more than one fits "well enough", then they'll accept the first such moral system, which changes their intuitions, causing the rest to be rejected.
+I think it's likely that both of these are factors that contribute to the apparent divergence in human moral reasoning. This seems to be another piece of bad news for the prospect of CEV, unless there are stronger converging influences in human moral reasoning that (in the limit of reflective equilibrium) can counteract these diverging tendencies.

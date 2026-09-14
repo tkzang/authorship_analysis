@@ -1,0 +1,19 @@
+Two More Decision Theory Problems for Humans
+
+(This post has been sitting in my drafts folder for 6 years. Not sure why I didn't make it public, but here it is now after some editing.)
+
+There are two problems closely related to the Ontological Crisis in Humans. I'll call them the "Partial Utility Function Problem" and the "Decision Theory Upgrade Problem".
+
+Partial Utility Function Problem
+
+As I mentioned in a previous post, the only apparent utility function we have seems to be defined over an ontology very different from the fundamental ontology of the universe. But even on it's native domain, the utility function seems only partially defined. In other words, it will throw an error (i.e., say "I don't know") on some possible states of the heuristical model. For example, this happens for me when the number of people gets sufficiently large, like 3^^^3 in Eliezer's Torture vs Dust Specks scenario. When we try to compute the expected utility of some action, how should we deal with these "I don't know" values that come up?
+
+(Note that I'm presenting a simplified version of the real problem we face, where in addition to "I don't know", our utility function could also return essentially random extrapolated values outside of the region where it gives sensible outputs.)
+
+Decision Theory Upgrade Problem
+
+In the Decision Theory Upgrade Problem, an agent decides that their current decision theory is inadequate in some way, and needs to be upgraded. (Note that the Ontological Crisis could be considered an instance of this more general problem.) The question is whether and how to transfer their values over to the new decision theory.
+
+For example a human might be be running a mix of several decision theories: reinforcement learning, heuristical model-based consequentialism, identity-based decision making (where you adopt one or more social roles, like "environmentalist" or "academic" as part of your identity and then make decisions based on pattern matching what that role would do in any given situation), as well as virtual ethics and deontology. If you are tempted to drop one or more of these in favor of a more "advanced" or "rational" decision theory, such as UDT, you have to figure out how to transfer the values embodied in the old decision theory, which may not even be represented as any kind of utility function, over to the new.
+
+Another instance of this problem can be seen in someone just wanting to be a bit more consequentialist. Maybe UDT is too strange and impractical, but our native model-based consequentialism at least seems closer to being rational than the other decision procedures we have. In this case we tend to assume that the consequentialist module already has our real values and we don't need to "port" values from the other decision procedures that we're deprecating. But I'm not entirely sure this is safe, since the step going from (for example) identity-based decision making to heuristical model-based consequentialism doesn't seem that different from the step between heuristical model-based consequentialism and something like UDT.

@@ -1,0 +1,11 @@
+Why doesn't China (or didn't anyone) encourage/mandate elastomeric respirators to control COVID?
+
+(This post was inspired in part by this comment by Florin, which I think makes some good related points.)
+
+Elastomeric respirators are reusable respirators made with some elastic material such as silicone, typically with N95 or better filters attached. They are low cost (there's currently one from a reputable manufacturer on sale for $2.99[1], which may be a loss leader but even the regular price is just $10.99) and are easier to correctly use than disposable N95s (since they form a soft seal against the face and are therefore less prone to leaks), and of course are much more effective than the cloth or surgical masks that most people still wear, even now (if they wear masks at all, e.g. in Chengdu, China).
+
+It seems easy to imagine that if everyone or most people wore such a respirator, COVID would be much easier to control and we could depend less on other measures, including draconian, extremely high cost ones like lockdowns. Yet every locality on Earth throughout the pandemic, including present day China, would apparently prefer to not mandate or even encourage using such respirators and instead incur the high costs of other control measures. I'm tempted to pass this off as typical irrationality of humans, but feel like I should check with the LW hivemind before I do. Is there some reasonable explanation that I'm missing?
+
+(At one point I saw A Clunky Mask May Be the Answer to Airborne Disease and N95 Waste in the NY Times, which made my heart jump a little, but it was only talking about use of these respirators by medical personnel, not the general population.)
+
+ETA: Elastomeric respirators do have some downsides, however many of them can be mitigated through better design. Here is an improved design which is currently on sale for $89.99, but can probably be made much cheaper if manufactured at scale.

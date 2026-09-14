@@ -1,0 +1,4 @@
+What about mathematics? I don't think we know how to do mathematics under a Bayesian framework, even with infinite computing power (since some mathematical statements can be neither proved nor disproved from the usual axioms). I noticed that nobody replied to my "uncertainty in mathematics" post.
+
+In that post I used Goldbach's Conjecture as an example, but perhaps a better one is P!=NP, which is a mathematical conjecture with many more real world implications. I think most of us believe that P!=NP and act accordingly, but it's not at all clear how to relate this to Bayesian probabilities.
+

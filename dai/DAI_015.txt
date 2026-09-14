@@ -1,0 +1,5 @@
+Yes, this is another good example of the current situation that I'd like to see improved. The analysis in the RFC (unless it's somewhere else that I've skipped over) simply says:
+
+Using the same nonce for two different messages encrypted with the same key destroys the security properties of this mode.
+
+I'd like to know more about what actually happens when a nonce is reused. For example, does it a) weaken the security bound by some factor? b) immediately allow an attacker to obtain the XOR of two messages that used the same nonce? or c) allow an attacker to recover the entire key or otherwise decrypt arbitrary messages?

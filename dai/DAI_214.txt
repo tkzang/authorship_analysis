@@ -1,0 +1,17 @@
+What determines the balance between intelligence signaling and virtue signaling?
+
+Lately I've come to think of human civilization as largely built on the backs of intelligence and virtue signaling. In other words, civilization depends very much on the positive side effects of (not necessarily conscious) intelligence and virtue signaling, as channeled by various institutions. As evolutionary psychologist Geoffrey Miller says, "it's all signaling all the way down."
+
+A question I'm trying to figure out now is, what determines the relative proportions of intelligence vs virtue signaling? (Miller argued that intelligence signaling can be considered a kind of virtue signaling, but that seems debatable to me, and in any case, for ease of discussion I'll use "virtue signaling" to mean "other kinds of virtue signaling besides intelligence signaling".) It seems that if you get too much of one type of signaling versus the other, things can go horribly wrong (the link is to Gwern's awesome review/summary of a book about the Cultural Revolution). We're seeing this more and more in Western societies, in places like journalism, academia, government, education, and even business. But what's causing this?
+
+One theory is that Twitter with its character limit, and social media and shorter attention spans in general, have made it much easier to do virtue signaling relative to intelligence signaling. But this seems too simplistic and there has to be more to it, even if it is part of the explanation.
+
+Another idea is that intelligence is valued more when a society feels threatened by an outside force, for which they need competent people to protect themselves from. US policy changes after Sputnik is a good example of this. This may also explain why intelligence signaling continues to dominate or at least is not dominated by virtue signaling in the rationalist and EA communities (i.e., we're really worried about the threat from Unfriendly AI).
+
+Does anyone have other ideas, or have seen more systematic research into this question?
+
+Once we understand the above, here are some followup questions: Is the trend towards more virtue signaling at the expense of intelligence signaling likely to reverse itself? How bad can things get, realistically, if it doesn't? Is there anything we can or should do about the problem? How can we at least protect our own communities from runaway virtue signaling? (The recent calls against appeals to consequences make more sense to me now, given this framing, but I still think they may err too much in the other direction.)
+
+PS, it was interesting to read this in Miller's latest book Virtue Signaling:
+
+I didn't know that "virtue signaling" was first coined (or at least used in writing) on LessWrong. Unfortunately, from a search, it doesn't seem like there was substantial discussion around this term. Signaling in general was much discussed on LessWrong and OvercomingBias, but I find myself still updating towards it being more important than I had realized.

@@ -1,0 +1,5 @@
+I'm assuming Bayesian reasoning as well. I don't think anthropic reasoning is relevant to this issue.
+
+I was using the standard prior for Solomonoff Induction. I see Nick Hay has written an exposition of the concept at
+
+Does that clear up the point I was trying to make?

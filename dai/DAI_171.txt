@@ -1,0 +1,59 @@
+Outline of Possible Sources of Values
+
+I don't know what my values are. I don't even know how to find out what my values are. But do I know something about how I (or an FAI) may be able to find out what my values are? Perhaps... and I've organized my answer to this question in the form of an "Outline of Possible Sources of Values". I hope it also serves as a summary of the major open problems in this area.
+
+External
+god(s)
+other humans
+other agents
+Behavioral
+actual (historical/observed) behavior
+counterfactual (simulated/predicted) behavior
+Subconscious Cognition
+model-based decision making
+ontology
+heuristics for extrapolating/updating model
+(partial) utility function
+model-free decision making
+identity based (adopt a social role like "environmentalist" or "academic" and emulate an appropriate role model, actual or idealized)
+habits
+reinforcement based
+Conscious Cognition
+decision making using explicit verbal and/or quantitative reasoning
+consequentialist (similar to model-based above, but using explicit reasoning)
+deontological
+virtue ethical
+identity based
+reasoning about terminal goals/values/preferences/moral principles
+responses (changes in state) to moral arguments (possibly context dependent)
+distributions of autonomously generated moral arguments (possibly context dependent)
+logical structure (if any) of moral reasoning
+object-level intuitions/judgments
+about what one should do in particular ethical situations
+about the desirabilities of particular outcomes
+about moral principles
+meta-level intuitions/judgments
+about the nature of morality
+about the complexity of values
+about what the valid sources of values are
+about what constitutes correct moral reasoning
+about how to explicitly/formally/effectively represent values (utility function, multiple utility functions, deontological rules, or something else) (if utility function(s), for what decision theory and ontology?)
+about how to extract/translate/combine sources of values into a representation of values
+how to solve ontological crisis
+how to deal with native utility function or revealed preferences being partial
+how to translate non-consequentialist sources of values into utility function(s)
+how to deal with moral principles being vague and incomplete
+how to deal with conflicts between different sources of values
+how to deal with lack of certainty in one's intuitions/judgments
+whose intuition/judgment ought to be applied? (may be different for each of the above)
+the subject's (at what point in time? current intuitions, eventual judgments, or something in between?)
+the FAI designers'
+the FAI's own philosophical conclusions
+
+Using this outline, we can obtain a concise understanding of what many metaethical theories and FAI proposals are claiming/suggesting and how they differ from each other. For example, Nyan_Sandwich's "morality is awesome" thesis can be interpreted as the claim that the most important source of values is our intuitions about the desirability (awesomeness) of particular outcomes.
+
+As another example, Aaron Swartz argued against "reflective equilibrium" by which he meant the claim that the valid sources of values are our object-level moral intuitions, and that correct moral reasoning consists of working back and forth between these intuitions until they reach coherence. His own position was that intuitions about moral principles are the only valid source of values and we should discount our intuitions about particular ethical situations.
+
+A final example is Paul Christiano's "Indirect Normativity" proposal (n.b., "Indirect Normativity" was originally coined by Nick Bostrom to refer to an entire class of designs where the AI's values are defined "indirectly") for FAI, where an important source of values is the distribution of moral arguments the subject is likely to generate in a particular simulated environment and their responses to those arguments. Also, just about every meta-level question is left for the (simulated) subject to answer, except for the decision theory and ontology of the utility function that their values must finally be encoded in, which is fixed by the FAI designer.
+
+I think the outline includes most of the ideas brought up in past LW discussions, or in moral philosophies that I'm familiar with. Please let me know if I left out anything important.

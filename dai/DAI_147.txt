@@ -1,0 +1,7 @@
+What's wrong with simplicity of value?
+
+In the Wiki article on complexity of value, Eliezer wrote:
+
+But in light of Yvain's recent series of posts (i.e., if we consider our "actual" values to be the values we would endorse in reflective equilibrium, instead of our current apparent values), I don't see any particular reason, whether from evolutionary psychology or elsewhere, that they must be complex either. Most of our apparent values (which admittedly are complex) could easily be mere behavior, which we would discard after sufficient reflection.
+
+For those who might wish to defend the complexity-of-value thesis, what reasons do you have for thinking that human value is complex? Is it from an intuition that we should translate as many of our behaviors into preferences as possible? If other people do not have a similar intuition, or perhaps even have a strong intuition that values should be simple (and therefore would be more willing to discard things that are on the fuzzy border between behaviors and values), could they think that their values are simple, without being wrong?

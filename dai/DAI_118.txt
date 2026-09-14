@@ -1,0 +1,45 @@
+Probability Space & Aumann Agreement
+
+The first part of this post describes a way of interpreting the basic mathematics of Bayesianism. Eliezer already presented one such view at http://lesswrong.com/lw/hk/priors_as_mathematical_objects/, but I want to present another one that has been useful to me, and also show how this view is related to the standard formalism of probability theory and Bayesian updating, namely the probability space.
+
+The second part of this post will build upon the first, and try to explain the math behind Aumann's agreement theorem. Hal Finney had suggested this earlier, and I'm taking on the task now because I recently went through the exercise of learning it, and could use a check of my understanding. The last part will give some of my current thoughts on Aumann agreement.
+
+Probability Space
+
+In http://en.wikipedia.org/wiki/Probability_space, you can see that a probability space consists of a triple:
+
+Ω – a non-empty set – usually called sample space, or set of states
+F – a set of subsets of Ω – usually called sigma-algebra, or set of events
+P – a function from F to [0,1] – usually called probability measure
+F and P are required to have certain additional properties, but I'll ignore them for now. To start with, we'll interpret Ω as a set of possible world-histories. (To eliminate anthropic reasoning issues, let's assume that each possible world-history contains the same number of observers, who have perfect memory, and are labeled with unique serial numbers.) Each "event" A in F is formally a subset of Ω, and interpreted as either an actual event that occurs in every world-history in A, or a hypothesis which is true in the world-histories in A. (The details of the events or hypotheses themselves are abstracted away here.)
+
+To understand the probability measure P, it's easier to first introduce the probability mass function p, which assigns a probability to each element of Ω, with the probabilities summing to 1. Then P(A) is just the sum of the probabilities of the elements in A. (For simplicity, I'm assuming the discrete case, where Ω is at most countable.) In other words, the probability of an observation is the sum of the probabilities of the world-histories that it doesn't rule out.
+
+A payoff of this view of the probability space is a simple understanding of what Bayesian updating is. Once an observer sees an event D, he can rule out all possible world-histories that are not in D. So, he can get a posterior probability measure by setting the probability masses of all world-histories not in D to 0, and renormalizing the ones in D so that they sum up to 1 while keeping the same relative ratios. You can easily verify that this is equivalent to Bayes' rule: P(H|D) = P(D ∩ H)/P(D).
+
+To sum up, the mathematical objects behind Bayesianism can be seen as
+
+Ω – a set of possible world-histories
+F – information about which events occur in which possible world-histories
+P – a set of weights on the world-histories that sum up to 1
+Aumann's Agreement Theorem
+
+Aumann's agreement theorem says that if two Bayesians share the same probability space but possibly different information partitions, and have common knowledge of their information partitions and posterior probabilities of some event A, then their posterior probabilities of that event must be equal. So what are information partitions, and what does "common knowledge" mean?
+
+The information partition I of an observer-moment M divides Ω into a number of subsets that are non-overlapping, and together cover all of Ω. Two possible world-histories w1 and w2 are placed into the same subset if the observer-moments in w1 and w2 have the exact same information. In other words, if w1 and w2 are in the same element of I, and w1 is the actual world-history, then M can't rule out either w1 or w2. I(w) is used to denote the element of I that contains w.
+
+Common knowledge is defined as follows: If w is the actual world-history and two agents have information partitions I and J, an event E is common knowledge if E includes the member of the meet I∧J that contains w. The operation ∧ (meet) means to take the two sets I and J, form their union, then repeatedly merge any of its elements (which you recall are subsets of Ω) that overlap until it becomes a partition again (i.e., no two elements overlap).
+
+It may not be clear at first what this meet operation has to do with common knowledge. Suppose the actual world-history is w. Then agent 1 knows I(w), so he knows that agent 2 must know one of the elements of J that overlaps with I(w). And he can reason that agent 2 must know that agent 1 knows one of the elements of I that overlaps with one of these elements of J. If he carries out this inference to infinity, he'll find that both agents know that the actual world-history is in (I∧J)(w), and both know the other know, and both know the other know the other know, and so on. In other words it is common knowledge that the actual world-history is in (I∧J)(w). Since event E occurs in every world-history in (I∧J)(w), it's common knowledge that E occurs in the actual world-history.
+
+Proof for the agreement theorem then goes like this. Let E be the event that agent 1 assigns a posterior probability (conditioned on everything it knows) of q1 to event A and agent 2 assigns a posterior probability of q2 to event A. If E is common knowledge at w, then both agents know that P(A | I(v)) = q1 and P(A | J(v)) = q2 for every v in (I∧J)(w). But this implies P(A | (I∧J)(w)) = q1 and P(A | (I∧J)(w)) = q2 and therefore q1 = q2. (To see this, suppose you currently know only (I∧J)(w), and you know that no matter what additional information I(v) you obtain, your posterior probability will be the same q1, then your current probability must already be q1.)
+
+Is Aumann Agreement Overrated?
+
+Having explained all of that, it seems to me that this theorem is less relevant to a practical rationalist than I thought before I really understood it. After looking at the math, it's apparent that "common knowledge" is a much stricter requirement than it sounds. The most obvious way to achieve it is for the two agents to simply tell each other I(w) and J(w), after which they share a new, common information partition. But in that case, agreement itself is obvious and there is no need to learn or understand Aumann's theorem.
+
+There are some papers that describe ways to achieve agreement in other ways, such as iterative exchange of posterior probabilities. But in such methods, the agents aren't just moving closer to each other's beliefs. Rather, they go through convoluted chains of deduction to infer what information the other agent must have observed, given his declarations, and then update on that new information. (The process is similar to the one needed to solve the second riddle on this page.) The two agents essentially still have to communicate I(w) and J(w) to each other, except they do so by exchanging posterior probabilities and making logical inferences from them.
+
+Is this realistic for human rationalist wannabes? It seems wildly implausible to me that two humans can communicate all of the information they have that is relevant to the truth of some statement just by repeatedly exchanging degrees of belief about it, except in very simple situations. You need to know the other agent's information partition exactly in order to narrow down which element of the information partition he is in from his probability declaration, and he needs to know that you know so that he can deduce what inference you're making, in order to continue to the next step, and so on. One error in this process and the whole thing falls apart. It seems much easier to just tell each other what information the two of you have directly.
+
+Finally, I now see that until the exchange of information completes and common knowledge/agreement is actually achieved, it's rational for even honest truth-seekers who share common priors to disagree. Therefore, two such rationalists may persistently disagree just because the amount of information they would have to exchange in order to reach agreement is too great to be practical. This is quite different from the understanding of Aumann agreement I had before I read the math.

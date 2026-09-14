@@ -1,0 +1,9 @@
+It's relevant to your fifth goal:
+
+5. Avoid creating a motive for modern-day humans to fight over the initial dynamic.
+
+If you can't convince modern-day humans that collective volition represents them then naturally they'll want to fight. For example, if al-Qaeda programmers wrote an AI, "knew more" would mean knowing that only Allah exists, and they would fight anyone who suggests that "knew more" should mean a Bayesian probability distribution over a wide range of gods.
+
+The thing is, I'm not sure that's the right question to ask, and the example I choose was meant to show the apparent absurdity of asking it. So I don't understand what point you're making by tossing the question back to me.
+
+Have you looked at any of the existing literature on preference aggregation? For example this paper: "Utilitarian Aggregation of Beliefs and Tastes", available at I think it might be worth taking a look if you haven't already.

@@ -1,0 +1,12 @@
+against "AI risk"
+
+Why does SI/LW focus so much on AI-FOOM disaster, with apparently much less concern for things like
+
+bio/nano-tech disaster
+Malthusian upload scenario
+highly destructive war
+bad memes/philosophies spreading among humans or posthumans and overriding our values
+upload singleton ossifying into a suboptimal form compared to the kind of superintelligence that our universe could support
+Why, for example, is lukeprog's strategy sequence titled "AI Risk and Opportunity", instead of "The Singularity, Risks and Opportunities"? Doesn't it seem strange to assume that both the risks and opportunities must be AI related, before the analysis even begins? Given our current state of knowledge, I don't see how we can make such conclusions with any confidence even after a thorough analysis.
+
+SI/LW sometimes gives the impression of being a doomsday cult, and it would help if we didn't concentrate so much on a particular doomsday scenario. (Are there any doomsday cults that say "doom is probably coming, we're not sure how but here are some likely possibilities"?)

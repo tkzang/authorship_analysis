@@ -1,0 +1,9 @@
+Neuroimaging as alternative/supplement to cryonics?
+
+Paul Christiano recently suggested that we can use neuroimaging to form a complete mathematical characterization of a human brain, which a sufficiently powerful superintelligence would be able to reconstruct into a working mind, and the neuroimaging part is already possible today, or close to being possible.
+
+Paul was using this idea as part of an FAI design proposal, but I'm highlighting it here since it seems to have independent value as an alternative or supplement to cryonics. That is, instead of (or in addition to) trying to get your body to be frozen and then preserved in liquid nitrogen after you die, you periodically take neuroimaging scans of your brain and save them to multiple backup locations (1010 bits is only about 1 gigabyte), in the hope that a friendly AI or posthuman will eventually use the scans to reconstruct your mind.
+
+Are there any neuroimaging experts around who can tell us how feasible this really is, and how much such a scan might cost, now or in the near future?
+
+ETA: Given the presence of thermal noise and the fact that a set of neuroimaging data may contain redundant or irrelevant information, 1010 bits ought to be regarded as just a rough lower bound on how much data needs to be collected and stored. Thanks to commenters who pointed this out. 

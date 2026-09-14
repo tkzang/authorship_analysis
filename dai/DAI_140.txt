@@ -1,0 +1,9 @@
+How To Be More Confident... That You're Wrong
+
+One of the main Eliezer Sequences, consisting of dozens of posts, is How To Actually Change Your Mind. Looking at all those posts, one gets the feeling that changing one's mind must be Really Hard. But maybe it doesn't have to be that hard. I think it would much easier to change your mind, if you instinctively thought that your best ideas are almost certainly still far from the truth. Most of us are probably aware of the overconfidence bias, but there hasn't been much discussion on how to practically reduce overconfidence in our own ideas.
+
+I offer two suggestions in that vein for your consideration.
+
+1. Take the outside view. Recall famous scientists and philosophers of the past, and how far off from the truth their ideas were, and yet how confident they were in their ideas. Realize that they are famous because, in retrospect, they were more right than everyone else of their time, and there are countless books filled with even worse ideas. How likely is it that your ideas are the best of our time? How likely is it that the best ideas of our time are fully correct (as opposed to just a bit closer to the truth)?
+
+2. Take a few days to learn some cryptology and then design your own cipher. Use whatever tricks you can find and make it as complicated as you want. Feel your confidence in how unbreakable it must be (at least before the Singularity occurs), and then watch it taken apart by an expert in minutes. Now feel the sense of betrayal against your "self-confidence module" and vow "never again".

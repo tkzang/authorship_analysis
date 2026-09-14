@@ -1,0 +1,1 @@
+Quote from: ArtForz on August 21, 2010, 04:56:31 PMAMD K10: 2 128bit unitsintel nehalem: 3 128bit unitsThis probably explains why hyperthreading increases performance with -4way.  If three SSE2 units is excessive, then hyperthreading would help keep them all busy.

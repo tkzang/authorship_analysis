@@ -1,0 +1,15 @@
+Managing risks while trying to do good
+
+I often think about "the road to hell is paved with good intentions".[1] I'm unsure to what degree this is true, but it does seem that people trying to do good have caused more negative consequences in aggregate than one might naively expect.[2] "Power corrupts" and "power-seekers using altruism as an excuse to gain power" are two often cited reasons for this, but I think don't explain all of it.
+
+A more subtle reason is that even when people are genuinely trying to do good, they're not entirely aligned with goodness. Status-seeking is a powerful motivation for almost all humans, including altruists, and we frequently award social status to people for merely trying to do good, before seeing all of the consequences of their actions. This is in some sense inevitable as there are no good alternatives. We often need to award people with social status before all of the consequences play out, both to motivate them to continue to try to do good, and to provide them with influence/power to help them accomplish their goals.
+
+A person who consciously or subconsciously cares a lot about social status will not optimize strictly for doing good, but also for appearing to do good. One way these two motivations diverge is in how to manage risks, especially risks of causing highly negative consequences. Someone who wants to appear to do good would be motivated to hide or downplay such risks, from others and perhaps from themselves, as fully acknowledging such risks would often amount to admitting that they're not doing as much good (on expectation) as they appear to be.
+
+How to mitigate this problem
+
+Individually, altruists (to the extent that they endorse actually doing good) can make a habit of asking themselves and others what risks they may be overlooking, dismissing, or downplaying.[3]
+
+Institutionally, we can rearrange organizational structures to take these individual tendencies into account, for example by creating positions dedicated to or focused on managing risk. These could be risk management officers within organizations, or people empowered to manage risk across the EA community.[4]
+
+Socially, we can reward people/organizations for taking risks seriously, or punish (or withhold rewards from) those who fail to do so. This is tricky because due to information asymmetry, we can easily create "risk management theaters" akin to "security theater" (which come to think of it, is a type of risk management theater). But I think we should at least take notice when someone or some organization fails, in a clear and obvious way, to acknowledge risks or to do good risk management, for example not writing down a list of important risks to be mindful of and keeping it updated, or avoiding/deflecting questions about risk.[5] More optimistically, we can try to develop a culture where people and organizations are monitored and held accountable for managing risks substantively and competently.

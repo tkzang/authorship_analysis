@@ -1,0 +1,3 @@
+Unfortunately Paul Davies does not know his algorithmic information theory. It's not true that two objects have equivalent complexity if they are contained within each other. Here's a simple counterexample.
+
+Consider the shortest program that prints out an infinite repitition of the first googolplex bits of pi. This program is pretty small, so the resulting infinite binary string X has a low algorithmic complexity. Now pick a random incompressible number with a google digits, and call it y. Consider the infinte binary string Z, which is X with the first y bits removed. X and Z both contain each other, but the algorithmic complexity of Z is much larger, because the program that prints out Z will have to contain an encoding of y.

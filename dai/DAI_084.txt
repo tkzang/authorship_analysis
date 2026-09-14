@@ -1,0 +1,13 @@
+It helps to already have the necessary background knowledge, for example what the Speed prior is. (Actually I am not a big fan of the Speed prior. See for a discussion between Juergen Schmidhuber and myself about it.)
+
+Ok, you don't know what the AI will do exactly, but do you have reason to believe that the scheme will work out, in the sense that the AI will be able to form accurate estimates of people's utility functions? Let me give another example that may be clearer.
+
+First suppose I don't know that the AI exists. If I reach for an apple in a store, that is a good indication that I consider the benefit of owning the apple higher than the cost of the apple. If the AI observes me reaching for an apple without being aware of its existence, it can reasonably deduce that fact about my utility function, and pay for the apple for me out of its own pocket. But what happens if I do know that the AI exists? In that case I might reach for the apple even if the benefit of the apple to me is quite small, because I think the AI will pay for me. So then how can the AI figure out how much I really value the apple?
+
+Do you think this will actually result in a *fair* comparison of interpersonal utilities? If so why?
+
+What about my desire for greater support of classical music, versus my neighbor's desire for more research into mind-altering drugs? It's not always so clear...
+
+When I said no "obvious" way, I meant that there isn't an obvious algorithm that is fair. There is actually an infinite number of algorithms that can be used, and choosing among them is the real problem.
+
+You can find plenty of papers if you do a search for "interpersonal comparison of utilities" but I'm not sure any of them are good constructive solutions.  

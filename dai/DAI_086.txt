@@ -1,0 +1,13 @@
+Tim, have you read my recent posts titled "answers I'd like from an SI" and "answers I'd like, part 2"? I think the problem is not just picking a prior, but that we still don't understand the nature of induction well enough. I think there are probably some insights beyond Solomonoff Induction that we are missing.
+
+I don't think that helps too much, because if everyone knows that the AI will stop helping only temporarily, they will take that into account and still not act in ways that reveal their true utilities.
+
+No, it is something specific about this algorithm. Suppose the AI instead gives each person a fixed quota of resources, and tells him it will only help him until his quota is used up. This would be similar to giving your children fixed trust funds instead of helping whichever child you think needs your help most (which encourages them to exaggerate how much help they need). (Caveat: I haven't thought this through. It might solve this problem, but have other bad consequences.)
+
+That's why I think your paper is more valuable as an illustration of how hard friendliness is, by showing that even a non-practical specification of "do-what-we-want" is non-trivial. Maybe showing your paper to other AGI projects will help convince them that pursuing AGI before solving friendliness is not a good idea.
+
+First, you haven't showed that the AI will actually draw the obvious-to-us conclusions correctly. Second, if we eventually discover a moral philosophy that is a big improvement over what is hard coded into the AI, we are screwed because we won't be able to reason with it and get it to change.
+
+But if arbitrariness is not a problem, then why not just pick the utility function of an arbitrary person instead of trying to average them?
+
+Yep, that's another problem. I mentioned it in the two posts I cited earlier.  

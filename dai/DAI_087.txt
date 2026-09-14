@@ -1,0 +1,3 @@
+A couple of months ago Lee Corbin and Eliezer Yudkowsky had a conversation about superrationality on the extropy-chat mailing list. Eliezer took the position that two dissimilar SIs may be capable of superrationality when they know each other's source code. He wrote:
+
+Putting aside the issue of superrationality for now, I wonder if anyone else finds it plausible that two dissimilar SIs can know each other's source code. If we assume that they start out without such knowledge, but each wants the other gain it, what can they do? Can one SI prove to another what its source code is? Or, is there some other argument for why SIs might know each other's source code (beyond "we don't know what SIs might be capable of, so we can't rule it out")?

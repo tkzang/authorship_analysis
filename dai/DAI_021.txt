@@ -1,0 +1,3 @@
+They do, don't they? I suppose the point is that 20 years from now we  shouldn't still be worrying that a call to an OS RNG might result in a  previously used random number (or if we are, it will be for some other  reason). Until then, consider my comments to be in support of defense in  depth.
+
+Thanks, Phil. That's certainly a very relevant work that anticipated much of  the discussion here. I can only suggest that it be standardized quickly and  used for general authenticated encryption (not just key-wrap). I think we  also need a public-key version of the SIV construction, or is there existing  work in that area also?

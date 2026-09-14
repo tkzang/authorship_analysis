@@ -1,0 +1,5 @@
+Yes, I think that is very likely. Mental arithmetic and visual perception are both processes that solve well defined problems and are probably isolated to one or two brain modules. In contrast, our ability to generate intuitions and especially our ability to reason about these questions probably involve many more brain modules, and we don't even know how to clearly define the problems being solved.
+
+Also, for visual perception, you can do animal experiments. How do you even begin to reverse engineer human-specific neurological processes before we have nanotechnology and/or uploading?
+
+Or, to mention another problem, for mental arithmetic and visual perception, you can have someone do mental arithmetic or look at something while you watch his neurons fire. But telling someone "now come up with a new insight into the nature of induction" isn't likely to get you anywhere.

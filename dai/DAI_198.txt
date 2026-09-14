@@ -1,0 +1,3 @@
+Please use real names, especially for Alignment Forum?
+
+As the number of AI alignment researchers increases over time, it's getting hard for me to keep track of everyone's names. (I'm probably worse than average in this regard.) It seems the fact that some people don't use their real names as their LW/AF usernames makes it harder than it needs to be. So I wonder if we could officially encourage people to use their real firstname and lastname as their username, especially if they regularly participate on AF, unless they're deliberately trying to keep their physical identities secret? (Alternatively, at least put their real firstname and lastname in their user profile/description?)

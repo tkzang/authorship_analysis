@@ -1,0 +1,7 @@
+Could those who advocate a qualia-based morality please propose an algorithm, which given two sets of qualia, will output which set is better?
+
+For example, consider dream qualia, which I'll define as qualia with these properties:
+
+1. occurs when long-term memory formation is suppressed, and 2. reality discrimination is suppressed, and 3. is of much lower fidelity than normal qualia, but still passes the relaxed reality-discrimination tests so that you don't notice anything is wrong (and if you occasionally do notice, you quickly forget)
+
+Today of course we mostly have dream qualia in our dreams. But an AI that is trying to maximize positive qualia would have to consider whether to accomplish that using dream qualia instead of normal qualia, for example by putting everyone into low-fidelity VR and modifying their brains to suppress memory formation and reality discrimination. The advantage of dream qualia is the much lower computational requirements, both memory and processing power, so that the system could accomodate many more people than with normal qualia. How should it evaluate whether these advantages outweigh the disadvantages (if any)?

@@ -1,0 +1,11 @@
+Experiment: Psychoanalyze Me
+
+From Yvain's latest post:
+
+I guess this probably applies to beliefs as well as behavior. That is, the reasons people give for their beliefs are probably not based on real introspection either, which would explain why it's often so hard to find one's true rejection.
+
+If I do not have highly privileged access to my own reasoning and decision making processes, it stands to reason that other people should sometimes be able to tell me things about my goals or beliefs that I myself have missed. But apparently it's not that simple. In the True Rejection post, Eliezer wrote
+
+This seems important enough to gather more data on. How and why do such conversations degenerate? Can we do something to prevent degeneration while still providing useful psychological insights to each other? So, as a first step, I hereby extend an open invitation to LW: tell me, whenever my stated goals and/or reasons do not seem to match up with my actual goals/reasons, what you think they really are.
+
+(Presumably, the degeneration has to do with status and offense. But perhaps in our community, one can gain status by conspicuously not taking offense to such analyses, and instead taking them seriously?)

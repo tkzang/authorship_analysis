@@ -1,0 +1,13 @@
+Newcomb's Problem vs. One-Shot Prisoner's Dilemma
+
+Eliezer has convinced me to one-box Newcomb's problem, but I'm not ready to Cooperate in one-shot PD yet. 
+
+The problem is, the paperclipper would like to deceive Eliezer into believing that Paperclipper.C <=> Eliezer.C, while actually playing D. This means Eliezer has to expend resources to verify that Paperclipper.C <=> Eliezer.C really is true with high probability. If the potential gain from cooperation in a one-shot PD is less than this cost, then cooperation isn't possible. In Newbomb's Problem, the analogous issue can be assumed away, by stipulating that Omega will see through any deception. But in the standard game theory analysis of one-shot PD, the opposite assumption is made, namely that it's impossible or prohibitively costly for players to convince each other that Player1.C <=> Player2.C.
+
+It seems likely that this assumption is false, at least for some types of agents and sufficiently high gains from cooperation. I asked how superintelligences can prove their source code to each other, and Tim Freeman responded with this suggestion:
+
+But this process seems quite expensive, so even SIs may not be able to play Cooperate in one-shot PD, unless the stakes are pretty high.
+
+Are there cheaper solutions, perhaps ones that can be applied to humans as well, for players in one-shot PD to convince each other what decision systems they are using?
+
+On a related note, Eliezer has claimed that truly one-shot PD is very rare in real life. I would agree with this, except that the same issue also arises from indefinitely repeated games where the probability of the game ending after the current round is too high, or the time discount factor is too low, for a tit-for-tat strategy to work.

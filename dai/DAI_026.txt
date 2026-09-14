@@ -1,0 +1,13 @@
+I would like to gain a better understanding of why Friendliness might be a stable supergoal for an SI. I hope Eliezer finds these questions interesting enough to answer.
+
+1. Are there supergoals other than Friendliness that can be stable for SI's? For example, can it be a stable supergoal to convert as much of the universe as possible into golf balls? To be friendly but to favor a subset of humanity over the rest (i.e. give them priority access to any resources that might be in contention)? To serve the wants of a single person?
+
+2. If the answer to question 1 is yes, will the first SI created by humans will have the supergoal of Friendliness? Given that for most people selfishness is a stronger motivation than altruism, how will Eliezer get sufficient funding before someone more selfish manages to create an SI?
+
+3. If the answer to question 1 is no, why not? Why can't the CFAI approach be used to build an AI that will serve the selfish interests of a group or individual?
+
+My current understanding of Eliezer's position is that many non-Friendly goals have no philosophical support. If I try to make the supergoal of an AI "serve Wei Dai", that will be intepreted by the AI as "serve myself" (i.e. serve the AI itself), because selfishness does have philosophical support while serving an arbitrary third party does not. Is that a correct understanding?
+
+4. Back in Oct 2000, Eliezer wrote (in
+
+Would Eliezer like to answer the question now? Will the Friendly AI's "personal philosophy" be stable under self-improvement?

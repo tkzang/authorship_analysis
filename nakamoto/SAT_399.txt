@@ -1,0 +1,1 @@
+Got the test working on 32-bit with MinGW GCC 4.5.  Exactly 50% slower than stock with Core 2.

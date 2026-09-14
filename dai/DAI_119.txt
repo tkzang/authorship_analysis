@@ -1,0 +1,23 @@
+What Are Probabilities, Anyway?
+
+In Probability Space & Aumann Agreement, I wrote that probabilities can be thought of as weights that we assign to possible world-histories. But what are these weights supposed to mean? Here I'll give a few interpretations that I've considered and held at one point or another, and their problems. (Note that in the previous post, I implicitly used the first interpretation in the following list, since that seems to be the mainstream view.)
+
+Only one possible world is real, and probabilities represent beliefs about which one is real.
+Which world gets to be real seems arbitrary.
+Most possible worlds are lifeless, so we'd have to be really lucky to be alive.
+We have no information about the process that determines which world gets to be real, so how can we decide what the probability mass function p should be? 
+All possible worlds are real, and probabilities represent beliefs about which one I'm in.
+Before I've observed anything, there seems to be no reason to believe that I'm more likely to be in one world than another, but we can't let all their weights be equal.
+Not all possible worlds are equally real, and probabilities represent "how real" each world is. (This is also sometimes called the "measure" or "reality fluid" view.)
+Which worlds get to be "more real" seems arbitrary.
+Before we observe anything, we don't have any information about the process that determines the amount of "reality fluid" in each world, so how can we decide what the probability mass function p should be?
+All possible worlds are real, and probabilities represent how much I care about each world. (To make sense of this, recall that these probabilities are ultimately multiplied with utilities to form expected utilities in standard decision theories.)
+Which worlds I care more or less about seems arbitrary. But perhaps this is less of a problem because I'm "allowed" to have arbitrary values.
+Or, from another perspective, this drops another another hard problem on top of the pile of problems called "values", where it may never be solved.
+As you can see, I think the main problem with all of these interpretations is arbitrariness. The unconditioned probability mass function is supposed to represent my beliefs before I have observed anything in the world, so it must represent a state of total ignorance. But there seems to be no way to specify such a function without introducing some information, which anyone could infer by looking at the function.
+
+For example, suppose we use a universal distribution, where we believe that the world-history is the output of a universal Turing machine given a uniformly random input tape. But then the distribution contains the information of which UTM we used. Where did that information come from?
+
+One could argue that we do have some information even before we observe anything, because we're products of evolution, which would have built some useful information into our genes. But to the extent that we can trust the prior specified by our genes, it must be that evolution approximates a Bayesian updating process, and our prior distribution approximates the posterior distribution of such a process. The "prior of evolution" still has to represent a state of total ignorance.
+
+These considerations lead me to lean toward the last interpretation, which is the most tolerant of arbitrariness. This interpretation also fits well with the idea that expected utility maximization with Bayesian updating is just an approximation of UDT that works in most situations. I and others have already motivated UDT by considering situations where Bayesian updating doesn't work, but it seems to me that even if we set those aside, there is still reason to consider a UDT-like interpretation of probability where the weights on possible worlds represent how much we care about those worlds.

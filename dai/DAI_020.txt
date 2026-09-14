@@ -1,0 +1,5 @@
+Hopefully OS vendors will cooperate with VM software writers to fix this  problem. It should be relatively simple since the fix would be transparent  to the application software (i.e. not require a new API).
+
+In the mean time, a workaround at the application software level may be to  always hash the current time into the random number returned by the OS. This  type of solution may also be applicable to state-derived nonces, for example  by reserving some bits in the nonce for a timestamp.
+
+This is also a good workaround in some situations, but using it for  Wegman-Carter MACs would eliminate or significantly reduce their speed  advantage.

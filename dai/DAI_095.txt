@@ -1,0 +1,13 @@
+I haven't made much progress on finding another example that clearly supports my suggestion that the "period of irrationality" might not be short, but one thing that puzzles me here: why 51/49? Why not 52/48, or 50.1/49.9? It seems that the original AIs would prefer 50.1/49.9 to 51/49 to 52/48, but if they go all the way to 50/50, things fall apart. That seems quite strange.
+
+I tried doing a literature search to see if there has been any academic research that might apply here, and it turns out that the problems of merging differing priors and utility functions have been noticed by economists in the context of creating an aggregate prior/utility function for purposes of government policy and the like. There are several recent papers on merging priors, which all pointing to a 1955 paper by Harsanyi on the issue of merging utility functions. These works seem to show that merging priors is a worse problem than merging utility functions: whereas merging utility functions can only make some individuals worse off, merging priors can make everyone worse off. This is reflected in my examples as well.
+
+What Harsanyi showed was that if we assume the following postulates:
+
+A. Social preferences can be represented by expected utility maximization B. Individual preferences can be represented by expected utility maximization C. Society is indifference between two outcomes A and B whenever all individuals are indifferent between them
+
+then the social utility function must be a linear combination of individual utility functions. It apparently wasn't considered that postulate A should be false.
+
+In, the authors show the possibility of merging differing priors, but only by giving up the "Pareto condition" (similar to postulate C above) that when all individuals in society agree on preferences between two alternatives, so should society. Again I didn't see any consideration that perhaps social preferences should not take the form of expected utility maximization.
+
+I wonder where the assumption came from, that groups as well as individuals should be guided strictly by expected utility maximization? Is it just that no one has proposed a viable and mathematically worked out alternative? I didn't see anything in the literature similar to the "flip a coin" solution that several people have suggested here.

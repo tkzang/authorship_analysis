@@ -1,0 +1,19 @@
+Work on Security Instead of Friendliness?
+
+Nick Szabo and I have very similar backrounds and interests. We both majored in computer science at the University of Washington. We're both very interested in economics and security. We came up with similar ideas about digital money. So why don't I advocate working on security problems while ignoring AGI, goals and Friendliness?
+
+In fact, I once did think that working on security was the best way to push the future towards a positive Singularity and away from a negative one. I started working on my Crypto++ Library shortly after reading Vernor Vinge's A Fire Upon the Deep. I believe it was the first general purpose open source cryptography library, and it's still one of the most popular. (Studying cryptography led me to become involved in the Cypherpunks community with its emphasis on privacy and freedom from government intrusion, but a major reason for me to become interested in cryptography in the first place was a desire to help increase security against future entities similar to the Blight described in Vinge's novel.)
+
+I've since changed my mind, for two reasons.
+
+1. The economics of security seems very unfavorable to the defense, in every field except cryptography.
+
+Studying cryptography gave me hope that improving security could make a difference. But in every other security field, both physical and virtual, little progress is apparent, certainly not enough that humans might hope to defend their property rights against smarter intelligences. Achieving "security against malware as strong as we can achieve for symmetric key cryptography" seems quite hopeless in particular. Nick links above to a 2004 technical report titled "Polaris: Virus Safe Computing for Windows XP", which is strange considering that it's now 2012 and malware have little trouble with the latest operating systems and their defenses. Also striking to me has been the fact that even dedicated security software like OpenSSH and OpenSSL have had design and coding flaws that introduced security holes to the systems that run them.
+
+One way to think about Friendly AI is that it's an offensive approach to the problem of security (i.e., take over the world), instead of a defensive one.
+
+2. Solving the problem of security at a sufficient level of generality requires understanding goals, and is essentially equivalent to solving Friendliness.
+
+What does it mean to have "secure property rights", anyway? If I build an impregnable fortress around me, but an Unfriendly AI causes me to give up my goals in favor of its own by crafting a philosophical argument that is extremely convincing to me but wrong (or more generally, subverts my motivational system in some way), have I retained my "property rights"? What if it does the same to one of my robot servants, so that it subtly starts serving the UFAI's interests while thinking it's still serving mine? How does one define whether a human or an AI has been "subverted" or is "secure", without reference to its "goals"? It became apparent to me that fully solving security is not very different from solving Friendliness.
+
+I would be very interested to know what Nick (and others taking a similar position) thinks after reading the above, or if they've already had similar thoughts but still came to their current conclusions.

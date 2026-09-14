@@ -1,0 +1,22 @@
+Fictional Evidence vs. Fictional Insight
+
+This is a response to Eliezer Yudkowsky's The Logical Fallacy of Generalization from Fictional Evidence and Alex Flint's When does an insight count as evidence? as well as komponisto's recent request for science fiction recommendations.
+
+My thesis is that insight forms a category that is distinct from evidence, and that fiction can provide insight, even if it can't provide much evidence. To give some idea of what I mean, I'll list the insights I gained from one particular piece of fiction (published in 1992), which have influenced my life to a large degree:
+
+Intelligence may be the ultimate power in this universe.
+A technological Singularity is possible.
+A bad Singularity is possible.
+It may be possible to nudge the future, in particular to make a good Singularity more likely, and a bad one less likely.
+Improving network security may be one possible way to nudge the future in a good direction. (Side note: here are my current thoughts on this.)
+An online reputation for intelligence, rationality, insight, and/or clarity can be a source of power, because it may provide a chance to change the beliefs of a few people who will make a crucial difference.
+So what is insight, as opposed to evidence? First of all, notice that logically omniscient Bayesians have no use for insight. They would have known all of the above without having observed anything (assuming they had a reasonable prior). So insight must be related to logical uncertainty, and a feature only of minds that are computationally constrained. I suspect that we won't fully understand the nature of insight until the problem of logical uncertainty is solved, but here are some of my thoughts about it in the mean time:
+
+A main form of insight is a hypothesis that one hadn't previously entertained, but should be assigned a non-negligible prior probability.
+An insight is kind of like a mathematical proof: in theory you could have thought of it yourself, but reading it saves you a bunch of computation.
+Recognizing an insight seems easier than coming up with it, but still of nontrivial difficulty.
+So a challenge for us is to distinguish true insights from unhelpful distractions in fiction. Eliezer mentioned people who let the Matrix and Terminator dominate their thoughts about the future, and I agree that we have to be careful not to let our minds consider fiction as evidence. But is there also some skill that can be learned, to pick out the insights, and not just to ignore the distractions?
+
+P.S., what insights have you gained from fiction?
+
+P.P.S., I guess I should mention the name of the book for the search engines: A Fire Upon the Deep by Vernor Vinge.

@@ -1,0 +1,31 @@
+Boredom vs. Scope Insensitivity
+
+How much would you pay to see a typical movie? How much would you pay to see it 100 times?
+
+How much would you pay to save a random stranger's life? How much would you pay to save 100 strangers?
+
+If you are like a typical human being, your answers to both sets of questions probably exhibit failures to aggregate value linearly. In the first case, we call it boredom. In the second case, we call it scope insensitivity.
+
+Eliezer has argued on separate occasions that one should be regarded as an obvious error to be corrected, and the other is a gift bestowed by evolution, to be treasured and safeguarded. Here, I propose to consider them side by side, and see what we can learn by doing that.
+
+(Eliezer sometimes treats scope insensitivity as a simple arithmetical error that the brain commits, like in this quote: "the brain can't successfully multiply by eight and get a larger quantity than it started with". Considering that the brain has little trouble multiplying by eight in other contexts and the fact that scope insensitivity starts with numbers as low as 2, it seems more likely that it's not an error but an adaptation, just like boredom.)
+
+The nonlinearities in boredom and scope insensitivity both occur at two different levels. On the affective or hedonic level, our emotions fail to respond in a linear fashion to the relevant input. Watching a movie twice doesn't give us twice the pleasure of watching it once, nor does saving two lives feel twice as good as saving one life. And on the level of decision making and revealed preferences, we fail to act as if our utilities scale linearly with the number of times we watch a movie, or the number of lives we save.
+
+Note that these two types of nonlinearities are logically distinct, and it seems quite possible to have one without the other. The refrain "shut up and multiply" is an illustration of this. It exhorts (or reminds) us to value lives directly and linearly in our utility functions and decisions, instead of only valuing the sublinear emotions we get from saving lives.
+
+We sometimes feel bad that we aren't sufficiently empathetic. Similarly, we feel bad about some of our boredoms. For example, consider a music lover who regrets no longer being as deeply affected by his favorite piece of music as when he first heard it, or a wife who wishes she was still as deeply in love with her husband as she once was. If they had the opportunity, they may very well choose to edit those boredoms away.
+
+Self-modification is dangerous, and the bad feelings we sometimes have about the way we feel were never meant to be used directly as a guide to change the wetware behind those feelings. If we choose to edit some of our boredoms away, while leaving others intact, we may find ourselves doing the one thing that we're not bored with, over and over again. Similarly, if we choose to edit our scope insensitivity away completely, we may find ourselves sacrificing all of our other values to help random strangers, who in turn care little about ourselves or our values. I bet that in the end, if we reach reflective equilibrium after careful consideration, we'll decide to reduce some of our boredoms, but not eliminate them completely, and become more empathetic, but not to the extent of full linearity.
+
+But that's a problem for a later time. What should we do today, when we can't change the way our emotions work to a large extent? Well, first, nobody argues for "shut up and multiply" in the case of boredom. It's clearly absurd to watch a movie 100 times, as if you're not bored with it, when you actually are. We simply don't value the experience of watching a movie apart from whatever positive emotions it gives us.
+
+Do we value saving lives independently of the good feelings we get from it? Some people seem to (or claim to), while others don't (or claim not to). For those who do, some value (or claim to value) the lives saved linearly, and others don't. So the analogy between boredom and scope insensitivity starts to break down here. But perhaps we can still make some final use out of it: whatever arguments we have to support the position that lives saved ought to be valued apart from our feelings, and linearly, we better make sure those arguments do not apply equally well to the case of boredom.
+
+Here's an example of what I mean. Consider the question of why we should consider the lives of random strangers to be valuable. You may be tempted to answer that we know those lives are valuable because we feel good when we consider the possibility of saving a stranger's life. But we also feel good when we watch a well-made movie, and we don't consider the watching of a movie to be valuable apart from that good feeling. This suggests that the answer is not a very good one.
+
+Appendix: Altruism vs. Cooperation
+
+This may be a good time to point out/clarify that I consider cooperation, but not altruism, to be a core element of rationality. By "cooperation" I mean techniques that can be used by groups of individuals with disparate values to better approximate the ideals of group rationality (such as Pareto optimality). According to Eliezer,
+
+In cooperation, we often takes others' welfare into account when choosing between actions, but this "altruism" is conditional on others reciprocating and taking our welfare into account in return. I expect that what Eliezer and others here mean by "altruist" must consider others' welfare to be a terminal value, not just an instrumental one, and therefore cooperation and true altruism are non-overlapping concepts. (Please correct me if I'm wrong about this.)

@@ -1,0 +1,17 @@
+SIAI has publicized the importance of the morality question. Certainly disaster will ensue if a powerful AI gets that question wrong, or has the wrong answer programmed into it. But it seems to me that getting any of the other questions I listed wrong can equally lead to catastrophe. (See examples below.) Assuming that it is unlikely we will obtain fully satisfactory answers to all of the questions before the Singularity occurs, does it really make sense to pursue an AI-based approach?
+
+To create an AI with abilities and intuitions comparable to human beings on these subjects, we would need to either reverse engineer where our intuitions come from and how we are able to contemplate these questions, or use evolutionary trial-and-error methods. Neither of these approaches seems to have an advantage over improving human intelligence. The former is likely slower and more difficult, and the latter is probably more dangerous.
+
+Ok, I don't expect SIAI to change its entire mission (and name!) but it wouldn't hurt to keep this problem in mind.
+
+Below I will give some examples of how things could go badly if an AI gets the answers wrong.
+
+Due to faulty mathematical intuitions, the AI starts believing it's likely that P=NP, and devotes almost all available resources into searching for a polynomial time algorithm for NP-complete problems, in the expectation that everyone will be much better off once a solution is found.
+
+I've written about this already at Complexity is clearly related to induction, and morality may also be related to complexity (Peter de Blanc and I have both suggested this). So getting this question wrong probably implies getting induction and morality wrong as well.
+
+The AI wants to prevent people from running torture sims, but unfortunately it can't tell how realistic a sim needs to be to generate pain qualia. To be safe, no one is allowed to play Dungeons and Dragons anymore, even the paper-and-pencil version.
+
+This one doesn't need further explanation, I think (hope).
+
+The AI decides that the simplest explanation for this is that it is the only conscious entity in the universe, and everyone else (especially human beings) must be philosophical zombies.

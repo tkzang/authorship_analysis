@@ -1,0 +1,11 @@
+Fair Division of Black-Hole Negentropy: an Introduction to Cooperative Game Theory
+
+Non-cooperative game theory, as exemplified by the Prisoner's Dilemma and commonly referred to by just "game theory", is well known in this community. But cooperative game theory seems to be much less well known.
+Personally, I had barely heard of it until a few weeks ago. Here's my attempt to give a taste of what cooperative game theory is about, so you can decide whether it might be worth your while to learn more about it.
+The example I'll use is the fair division of black-hole negentropy. It seems likely that for an advanced civilization, the main constraining resource in the universe is negentropy. Every useful activity increases entropy, and since entropy of the universe as a whole never decreases, the excess entropy produced by civilization has to be dumped somewhere. A black hole is the only physical system we know whose entropy grows quadratically with its mass, which makes it ideal as an entropy dump. (See where I go into a bit more detail about this idea.)
+
+ETA:
+At this point, the interested reader can pursue two paths to additional knowledge. You can learn more about the rest of cooperative game theory, or compare other approaches to the problem of fair division, for example welfarist and voting-based. Unfortunately, I don't know of a good online resource or textbook for systematically learning cooperative game theory. If anyone does, please leave a comment. For the latter path, a good book is
+Hervé Moulin's Fair Division and Collective Welfare, which includes a detailed discussion of the Shapley Value in chapter 5.
+ETA2: 
+I found that a website of Martin J. Osborne and Ariel Rubinstein offers their game theory textbook for free (after registration), and it contains several chapters on cooperative game theory. The site also has several other books that might be of relevance to this community. A more comprehensive textbook on cooperative game theory seems to be Introduction to the Theory of Cooperative Games. A good reference is Handbook of Game Theory with Economic Applications.

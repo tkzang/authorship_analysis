@@ -1,0 +1,7 @@
+I definitely expect better results than that. At least some of the questions are clearly not "mysterious". For example we already have a completely non-mysterious (but imperfect) answer to "How does induction work?" in the form of Solomonoff Induction. If human beings can discover Solomonoff Induction, shouldn't an SI be able to do better?
+
+Take Solomonoff Induction again. Sure you need a certain level of intelligence to understand it, but not SI-like.
+
+I realize this is a possibility, and stated it myself as "search for the string that maximizes intellectual satisfaction for the questioner". However this is an outcome that I would really like to avoid.
+
+The rest of alternatives that you suggest either represent more mundane failures of Friendliness or are covered by my response above.  

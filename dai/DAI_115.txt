@@ -1,0 +1,15 @@
+Why (and why not) Bayesian Updating?
+
+For those who aren't sure of the need for an updateless decision theory, the paper Revisiting Savage in a conditional world by Paolo Ghirardato might help convince you. (Although that's probably not the intention of the author!) The paper gives a set of 7 axioms, based on Savage's axioms, which is necessary and sufficient for an agent's preferences in a dynamic decision problem to be represented as expected utility maximization with Bayesian belief updating. This helps us see in exactly which situations Bayesian updating works and why. (In many other axiomatizations of decision theory, the updating part is left out, and only expected utility maximization is derived in a static setting.)
+
+A key assumption is Axiom 7, which the author calls "Consequentialism". I won't try to reproduce the mathematical notation here (see the page numbered 88 in this ungated PDF), but here's the informal explanation given in the paper:
+
+This axiom is clearly violated in Vladmir Nesov's Counterfactual Mugging counter-example to Bayesian updating.
+
+Another example that I used to motivate UDT involves indexical uncertainty. In Ghirardato's framework it's relatively easy to see what goes wrong when we try to apply it to indexical uncertainty. In that case, "states" in the formalism would have to be centered possible worlds, in other words an ordinary world-state plus a location. But if A above is a set of centered possible worlds, then after learning A, your preferences can still depend on how strategies behave in AC since elements of A and AC may belong to the same possible world.
+
+If there is demand, I can try to give an informal/intuitive explanation of why Bayesian updating works (in the situations where it does). I was about to attempt that when I decided to do a Google search and found this paper.
+
+P.S., I noticed a curiosity about Bayesian updating while thinking about it in the context of decision theory, and this seems like a good opportunity to point it out. In Ghirardato's decision theory, after learning A, you should use PA to compute expected utilities, where PA(x) is the conditional probability of x given A, or P(A ∩ x)/P(A). This apparently shows the relevance of Bayesian updating, but we get an equivalent theory if we instead define PA(x) as the joint probability of A and x, or just P(A ∩ x). (Because when you compute the expected utilities of two choices f and g, upon learning A, the factor 1/P(A) enters into both computations the same way and can be removed without changing relative rankings.) The division by P(A) in the original definition seems to serve no purpose except to make PA sum to 1.
+
+So, theoretically, we don't need Bayesian updating even if our preferences do satisfy the Ghirardato axioms. We could use a decision procedure where our beliefs about something can only get weaker, and never any stronger, no matter what evidence we see, and that would be equivalent. Since that seems to be computationally cheaper (by avoiding the division operation), why do our beliefs not actually work like that?

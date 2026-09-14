@@ -1,0 +1,27 @@
+Disincentives for participating on LW/AF
+
+I was in a research retreat recently with many AI alignment researchers, and found that the vast majority of them do not participate (post or comment) on LW/AF or participate to a much lesser extent than I would prefer. It seems important to bring this up and talk about whether we can do something about it. Unfortunately I didn't get a chance to ask them about why that is the case as there were other things to talk about, so I'm going to have to speculate here based on my personal experiences and folk psychology. (Perhaps the LW team could conduct a survey and get a better picture than this.)
+
+Criticism that feels overly harsh or is otherwise psychologically unpleasant
+Downvotes
+Not getting enough upvotes as one feels deserved
+Not getting enough engagement
+More adversarial (zero-sum) nature of public discussion / preferring private discussions for more collaborative nature
+Feeling like "losing" a debate when the other person gets more upvotes than you
+More effort needed to write comments than to talk to people IRL
+Not real-time / time lag between replies
+Feeling ignored when someone stops responding
+Others?
+ETA: Potentially leaving a record of being wrong in public
+
+One meta problem is that different people have different sensitivities to these disincentives, and having enough disincentives to filter out low-quality content from people with low sensitivities just necessarily means some potential high-quality content from people with high sensitivities are also kept out. But it seems like there are still some things worth doing or experimenting with. For example:
+
+Support for real-time collaborative discussion which subsequently get posted and voted upon as one unit (with votes going equally to both participants)
+Disabling downvotes on AF
+Having more indications/reminders of how much posting to LW/AF benefits the individual posters and the wider community, in terms of making intellectual progress and spreading good ideas. I'm not sure what form this could take, but maybe things like an indication of how many times a post is read.
+My previous feature suggestion to help with the "feeling ignored" problem
+Being less critical of new users and engaging more positively with them
+
+There's a separate issue that some people don't read LW/AF as much as I would prefer but I have much less idea what is going on there.
+
+On a tangentially related topic, is LW making any preparations (such as thinking about what to do) for a seemingly not very far future where automated opinion influencers are widely available as hirable services? I'm imagining some AI that you can hire to scan internet discussion forums and make posts or replies in order to change readers' beliefs/values in some specified direction. This might be very crude at the beginning but could already greatly degrade the experience of participating on public discussion forums.
